@@ -231,9 +231,8 @@ def send_email(to_email, subject, body, attachment=None):
     msg.attach(MIMEText(body, 'plain'))
 
     if attachment:
-        with open(attachment, "rb") as file:
-            part = MIMEApplication(file.read(), Name=os.path.basename(attachment))
-        part['Content-Disposition'] = f'attachment; filename="{os.path.basename(attachment)}"'
+        part = MIMEApplication(attachment.getvalue(), Name=attachment.name)
+        part['Content-Disposition'] = f'attachment; filename="{attachment.name}"'
         msg.attach(part)
 
     try:
@@ -276,10 +275,10 @@ if st.button("التسجيل"):
         st.error("عناوين البريد الإلكتروني لا تتطابق. يرجى التحقق والمحاولة مرة أخرى.")
     elif full_name and academic_degree and specialization and current_position and institution and country and nationality and email and confirm_email and phone and paper_title and keywords and conference_theme and abstract_file:
         # Save the uploaded file
-        abstract_path = os.path.join("uploads", abstract_file.name)
+        #abstract_path = os.path.join("uploads", abstract_file.name)
         with st.spinner("تحميل معلوماتك..."):
-            with open(abstract_path, "wb") as f:
-                f.write(abstract_file.getbuffer())
+            # with open(abstract_path, "wb") as f:
+            #     f.write(abstract_file.getbuffer())
             # تحضير محتوى البريد الإلكتروني
             email_body = f"""
             تسجيل جديد في الملتقى:
@@ -302,13 +301,33 @@ if st.button("التسجيل"):
 
 
             # Send email
-            if send_email("metalesaek@yahoo.fr", "تسجيل جديد في المؤتمر", email_body, abstract_path):
+            if send_email("metalesaek@yahoo.fr", "تسجيل جديد في المؤتمر", email_body, abstract_file):
                 st.success(f"شكرًا لتسجيلك، {full_name}! لقد تلقينا معلوماتك وملخص البحث.")
             else:
                 st.error("حدث خطأ أثناء معالجة تسجيلك. يرجى المحاولة مرة أخرى لاحقًا.")
 
             # Clean up the uploaded file
-            os.remove(abstract_path)
+            # os.remove(abstract_path)
     else:
         st.error("يرجى ملء جميع الحقول وتحميل الملخص الخاص بك.")
 
+# Footer section
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    <div class="footer">
+        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)

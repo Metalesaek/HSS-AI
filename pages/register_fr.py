@@ -231,9 +231,8 @@ def send_email(to_email, subject, body, attachment=None):
     msg.attach(MIMEText(body, 'plain'))
 
     if attachment:
-        with open(attachment, "rb") as file:
-            part = MIMEApplication(file.read(), Name=os.path.basename(attachment))
-        part['Content-Disposition'] = f'attachment; filename="{os.path.basename(attachment)}"'
+        part = MIMEApplication(attachment.getvalue(), Name=attachment.name)
+        part['Content-Disposition'] = f'attachment; filename="{attachment.name}"'
         msg.attach(part)
 
     try:
@@ -245,6 +244,7 @@ def send_email(to_email, subject, body, attachment=None):
     except Exception as e:
         st.error("Une erreur est survenue lors de l'envoi de l'e-mail, veuillez réessayer. Si le problème persiste, contactez-nous.")
         return False
+
 
 # Main Streamlit app
 st.title("Formulaire d'inscription à la conférence")
@@ -275,10 +275,10 @@ if st.button("S'inscrire"):
         st.error("Les adresses e-mail ne correspondent pas. Veuillez vérifier et réessayer.")
     elif full_name and academic_degree and specialization and current_position and institution and country and nationality and email and confirm_email and phone and paper_title and keywords and conference_theme and abstract_file:
         # Save the uploaded file
-        abstract_path = os.path.join("uploads", abstract_file.name)
+        #abstract_path = os.path.join("uploads", abstract_file.name)
         with st.spinner("Téléchargement de vos informations..."):
-            with open(abstract_path, "wb") as f:
-                f.write(abstract_file.getbuffer())
+            # with open(abstract_path, "wb") as f:
+            #     f.write(abstract_file.getbuffer())
             # Préparer le contenu de l'email
             email_body = f"""
             Nouvelle inscription à la conférence :
@@ -301,14 +301,34 @@ if st.button("S'inscrire"):
 
 
             # Envoyer l'email
-            if send_email("metalesaek@yahoo.fr", "Nouvelle inscription à la conférence", email_body, abstract_path):
+            if send_email("metalesaek@yahoo.fr", "Nouvelle inscription à la conférence", email_body, abstract_file):
                 st.success(f"Merci pour votre inscription, {full_name} ! Nous avons bien reçu vos informations et votre résumé.")
             else:
                 st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer plus tard.")
 
 
             # Clean up the uploaded file
-            os.remove(abstract_path)
+            #os.remove(abstract_path)
     else:
         st.error("Veuillez remplir tous les champs et télécharger votre résumé.")
 
+# Footer section
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    <div class="footer">
+        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)

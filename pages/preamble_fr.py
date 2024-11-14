@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_navigation_bar import st_navbar
 import os
-
+import base64
 import pandas as pd
 
 
@@ -195,6 +195,14 @@ elif page == translate("register"):
 # elif page == translate("logout"):
 # 	navigate_to("logout")
 
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <img src="data:image/png;base64,{}" width="70">
+    </div>
+    """.format(base64.b64encode(open("logo_univ.png", "rb").read()).decode()),
+    unsafe_allow_html=True
+	)
 if st.session_state.language == "en":
     navigate_to("preamble")
 if st.session_state.language == "ar":
@@ -258,3 +266,24 @@ Cette section explore les questions éthiques, juridiques et politiques qui surg
 5. Favoriser la sensibilisation aux technologies modernes, en promouvant la compréhension du public et la résilience face à la désinformation et aux préjugés.
 
 """)
+
+# Footer section
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    <div class="footer">
+        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
