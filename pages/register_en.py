@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import pandas as pd
-
+import base64
 
 st.set_page_config(initial_sidebar_state="collapsed")
 
@@ -197,6 +197,15 @@ elif page == translate("schedule"):
 # 	navigate_to("login")
 # elif page == translate("logout"):
 # 	navigate_to("logout")
+
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <img src="data:image/png;base64,{}" width="70">
+    </div>
+    """.format(base64.b64encode(open("logo_univ.png", "rb").read()).decode()),
+    unsafe_allow_html=True
+	)
 
 if st.session_state.language == "fr":
     navigate_to("register")
