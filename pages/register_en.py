@@ -216,6 +216,36 @@ st.markdown(f"<h5 style='color:rgb(226,135,67);'>Register for the Conference</h5
 
 
 
+# def send_email(to_email, subject, body, attachment=None):
+#     # Email configuration
+#     smtp_server = "smtp.gmail.com"
+#     smtp_port = 587
+#     smtp_username = st.secrets["email"]["username"]
+#     smtp_password = st.secrets["email"]["password"]
+
+#     msg = MIMEMultipart()
+#     msg['From'] = smtp_username
+#     msg['To'] = to_email
+#     msg['Subject'] = subject
+
+#     msg.attach(MIMEText(body, 'plain'))
+
+#     if attachment:
+#         with open(attachment, "rb") as file:
+#             part = MIMEApplication(file.read(), Name=os.path.basename(attachment))
+#         part['Content-Disposition'] = f'attachment; filename="{os.path.basename(attachment)}"'
+#         msg.attach(part)
+
+#     try:
+#         with smtplib.SMTP(smtp_server, smtp_port) as server:
+#             server.starttls()
+#             server.login(smtp_username, smtp_password)
+#             server.send_message(msg)
+#         return True
+#     except Exception as e:
+#         st.error("An error occurred while sending the email, try again, if the problem persist contact as")
+#         return False
+
 def send_email(to_email, subject, body, attachment=None):
     # Email configuration
     smtp_server = "smtp.gmail.com"
@@ -231,9 +261,8 @@ def send_email(to_email, subject, body, attachment=None):
     msg.attach(MIMEText(body, 'plain'))
 
     if attachment:
-        with open(attachment, "rb") as file:
-            part = MIMEApplication(file.read(), Name=os.path.basename(attachment))
-        part['Content-Disposition'] = f'attachment; filename="{os.path.basename(attachment)}"'
+        part = MIMEApplication(attachment.getvalue(), Name=attachment.name)
+        part['Content-Disposition'] = f'attachment; filename="{attachment.name}"'
         msg.attach(part)
 
     try:
@@ -243,8 +272,9 @@ def send_email(to_email, subject, body, attachment=None):
             server.send_message(msg)
         return True
     except Exception as e:
-        st.error("An error occurred while sending the email, try again, if the problem persist contact as")
+        st.error("An error occurred while sending the email. Please try again. If the problem persists, please contact us.")
         return False
+
 
 # Main Streamlit app
 st.title("Conference Registration Form")
