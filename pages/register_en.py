@@ -331,7 +331,7 @@ if st.button("Register"):
             """
 
             # Send email
-            if send_email("metalesaek@yahoo.fr", "New Conference Registration", email_body, abstract_file):
+            if send_email("hssai2024@gmail.com", "New Conference Registration", email_body, abstract_file):
                 st.success(f"Thank you for registering, {full_name}! We have received your information and abstract.")
             else:
                 st.error("There was an error processing your registration. Please try again later.")

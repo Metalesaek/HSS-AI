@@ -301,7 +301,7 @@ if st.button("S'inscrire"):
 
 
             # Envoyer l'email
-            if send_email("metalesaek@yahoo.fr", "Nouvelle inscription à la conférence", email_body, abstract_file):
+            if send_email("hssai2024@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
                 st.success(f"Merci pour votre inscription, {full_name} ! Nous avons bien reçu vos informations et votre résumé.")
             else:
                 st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer plus tard.")

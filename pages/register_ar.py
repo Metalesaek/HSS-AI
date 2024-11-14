@@ -301,7 +301,7 @@ if st.button("التسجيل"):
 
 
             # Send email
-            if send_email("metalesaek@yahoo.fr", "تسجيل جديد في المؤتمر", email_body, abstract_file):
+            if send_email("hssai2024@gmail.com", "تسجيل جديد في المؤتمر", email_body, abstract_file):
                 st.success(f"شكرًا لتسجيلك، {full_name}! لقد تلقينا معلوماتك وملخص البحث.")
             else:
                 st.error("حدث خطأ أثناء معالجة تسجيلك. يرجى المحاولة مرة أخرى لاحقًا.")
