@@ -276,10 +276,10 @@ if st.button("Register"):
         st.error("Email addresses do not match. Please check and try again.")
     elif full_name and academic_degree and specialization and current_position and institution and country and nationality and email and confirm_email and phone and paper_title and keywords and conference_theme and abstract_file:
         # Save the uploaded file
-        abstract_path = os.path.join("uploads", abstract_file.name)
+        #abstract_path = os.path.join("uploads", abstract_file.name)
         with st.spinner("Uploading your information..."):
-            with open(abstract_path, "wb") as f:
-                f.write(abstract_file.getbuffer())
+            #with open(abstract_path, "wb") as f:
+            #   f.write(abstract_file.getbuffer())
             # Prepare email content
             email_body = f"""
             New Conference Registration:
@@ -301,7 +301,7 @@ if st.button("Register"):
             """
 
             # Send email
-            if send_email("metalesaek@yahoo.fr", "New Conference Registration", email_body, abstract_path):
+            if send_email("metalesaek@yahoo.fr", "New Conference Registration", email_body, abstract_file):
                 st.success(f"Thank you for registering, {full_name}! We have received your information and abstract.")
             else:
                 st.error("There was an error processing your registration. Please try again later.")
