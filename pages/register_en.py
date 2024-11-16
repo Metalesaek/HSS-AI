@@ -359,7 +359,7 @@ if st.button("Register"):
                 DR. Metales Aicha
                 Conference Chair
                 """
-                send_email(email, "Confirmation of Your Conference Submission", body):
+                send_email(email, "Confirmation of Your Conference Submission", body)
 
             else:
                 st.error("There was an error processing your registration. Please try again later.")
