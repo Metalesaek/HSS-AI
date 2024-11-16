@@ -301,10 +301,43 @@ if st.button("S'inscrire"):
 
 
             # Envoyer l'email
+            # if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
+            #     st.success(f"Merci pour votre inscription, {full_name} ! Nous avons bien reçu vos informations et votre résumé.")
+            # else:
+            #     st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer plus tard.")
             if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
-                st.success(f"Merci pour votre inscription, {full_name} ! Nous avons bien reçu vos informations et votre résumé.")
+                st.success(f"""
+                Merci pour votre inscription, {full_name} !
+                Nous avons bien reçu vos informations et votre résumé.
+                Si l'adresse e-mail que vous avez fournie est correcte, vous recevrez un e-mail de confirmation sous peu.
+                Si vous avez des questions ou besoin d'apporter des modifications, n'hésitez pas à nous contacter directement à hssaiudl@gmail.com ou par téléphone au +213 541 531 962.
+                """)
+                body = f"""
+                Cher(e) {full_name},
+
+                Merci d'avoir soumis vos informations et votre résumé pour {translate('page_title')} qui se tiendra les 26-27 février 2025 à l'Université Djillali Liabes, Sidi Bel Abbès. Nous sommes ravis de vous compter parmi les participants !
+
+                Détails de la soumission:
+                Nous avons bien reçu votre soumission, qui comprend :
+                
+                Titre de l'article : {paper_title}
+
+                Prochaines étape:
+                Notre comité de révision évaluera toutes les soumissions et vous informera du statut d'acceptation avant le 10 janvier 2025. Si votre soumission est acceptée, vous recevrez plus de détails concernant les directives de présentation et l'inscription.
+
+                Si vous avez des questions ou besoin d'informations complémentaires, n'hésitez pas à nous contacter à hssaiudl@gmail.com ou au +213 541 531 962.
+
+                Merci encore pour votre contribution. Nous attendons avec impatience une conférence réussie et apprécions votre participation !
+
+                Cordialement,
+
+                Dr. Metales Aicha
+                Présidente de la Conférence
+                """
+                send_email(email, "Confirmation de votre soumission à la conférence", body)
+
             else:
-                st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer plus tard.")
+                st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer ultérieurement.")
 
 
             # Clean up the uploaded file

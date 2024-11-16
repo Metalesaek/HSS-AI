@@ -338,18 +338,18 @@ if st.button("Register"):
                 If you have any questions or need to make any changes, please feel free to contact us directly at hssaiudl@gmail.com or by phone at +213 541 531 962.
                 """)
                 body = f"""
-                Dear t_{full_name},
+                Dear {full_name},
 
                 Thank you for submitting your information and abstract for the {translate('page_title')} scheduled to take place on 26-27 Fabruary 2025 at Djillali Liabes University, Sid Bel Abbes. We are excited to have you as part of this event!
 
-                ## Submission Details
+                Submission Details:
                 We have successfully received your submission, which includes:
-                - **Title of Paper:** {paper_title}
+                
+                Title of Paper: {paper_title}
 
-                ## Next Steps
+                Next Step:
                 Our review committee will evaluate all submissions, and we will notify you of the acceptance status by January 10, 2025. If accepted, you will be provided with further details regarding presentation guidelines and registration.
 
-                
                 If you have any questions or require further information, please do not hesitate to reach out to us at hssaiudl@gmail.com or +213 541 531 962.
 
                 Thank you once again for your contribution. We look forward to a successful conference and appreciate your participation!
