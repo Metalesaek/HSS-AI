@@ -7,6 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import pandas as pd
 import base64
+import time
 
 st.set_page_config(initial_sidebar_state="collapsed")
 
@@ -335,6 +336,7 @@ if st.button("التسجيل"):
                 رئيسة الملتقى
                 
                 """
+                time.sleep(10)
                 send_email(email, "تأكيد تقديم مشاركتك في المؤتمر", body)
 
             else:

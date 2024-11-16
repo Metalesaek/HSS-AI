@@ -7,6 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import pandas as pd
 import base64
+import time
 
 st.set_page_config(initial_sidebar_state="collapsed")
 
@@ -334,6 +335,7 @@ if st.button("S'inscrire"):
                 Dr. Metales Aicha
                 Présidente de la Conférence
                 """
+                time.sleep(10)
                 send_email(email, "Confirmation de votre soumission à la conférence", body)
 
             else:
