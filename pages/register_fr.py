@@ -308,8 +308,7 @@ if st.button("S'inscrire"):
             #     st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer plus tard.")
             if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
                 st.success(f"""
-                Merci pour votre inscription, {full_name} !
-                Nous avons bien reçu vos informations et votre résumé.
+                Merci pour votre inscription, {full_name} !, Nous avons bien reçu vos informations et votre résumé.
                 Si l'adresse e-mail que vous avez fournie est correcte, vous recevrez un e-mail de confirmation sous peu.
                 Si vous avez des questions ou besoin d'apporter des modifications, n'hésitez pas à nous contacter directement à hssaiudl@gmail.com ou par téléphone au +213 541 531 962.
                 """)
