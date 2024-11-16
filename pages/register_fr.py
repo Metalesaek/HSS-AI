@@ -301,7 +301,7 @@ if st.button("S'inscrire"):
 
 
             # Envoyer l'email
-            if send_email("hssai2024@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
+            if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
                 st.success(f"Merci pour votre inscription, {full_name} ! Nous avons bien reçu vos informations et votre résumé.")
             else:
                 st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer plus tard.")
@@ -327,7 +327,7 @@ st.markdown(
         }
     </style>
     <div class="footer">
-        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+        <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213541531962</p>
     </div>
     """,
     unsafe_allow_html=True

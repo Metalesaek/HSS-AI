@@ -196,14 +196,6 @@ elif page == translate("register"):
 # 	navigate_to("logout")
 
 #st.image("logo_aicha.jpeg", width=300)
-st.markdown(
-    """
-    <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{}" width="70">
-    </div>
-    """.format(base64.b64encode(open("logo_univ.png", "rb").read()).decode()),
-    unsafe_allow_html=True
-	)
 
 if st.session_state.language == "en":
 	st.markdown(f"<center><h5 style='color:rgb(226,135,67);'>Invitation to Participate in the International Conference:</h5></center>", unsafe_allow_html=True)
@@ -213,7 +205,7 @@ if st.session_state.language == "en":
     <div style="display: flex; justify-content: center;">
         <img src="data:image/png;base64,{}" width="300">
     </div>
-    """.format(base64.b64encode(open("logo_aicha.jpeg", "rb").read()).decode()),
+    """.format(base64.b64encode(open("coloq_english.jpeg", "rb").read()).decode()),
     unsafe_allow_html=True
 	)
 	
@@ -350,7 +342,7 @@ elif st.session_state.language == "fr":
     <div style="display: flex; justify-content: center;">
         <img src="data:image/png;base64,{}" width="300">
     </div>
-    """.format(base64.b64encode(open("logo_aicha.jpeg", "rb").read()).decode()),
+    """.format(base64.b64encode(open("coloq_english.jpeg", "rb").read()).decode()),
     unsafe_allow_html=True
 	)
 	
@@ -480,7 +472,7 @@ else:
     <div style="display: flex; justify-content: center;">
         <img src="data:image/png;base64,{}" width="300">
     </div>
-    """.format(base64.b64encode(open("logo_aicha.jpeg", "rb").read()).decode()),
+    """.format(base64.b64encode(open("coloq_arab.jpeg", "rb").read()).decode()),
     unsafe_allow_html=True
 	)
 	
@@ -633,7 +625,7 @@ st.markdown(
         }
     </style>
     <div class="footer">
-        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+        <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213541531962</p>
     </div>
     """,
     unsafe_allow_html=True

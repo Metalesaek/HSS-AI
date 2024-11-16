@@ -331,8 +331,36 @@ if st.button("Register"):
             """
 
             # Send email
-            if send_email("hssai2024@gmail.com", "New Conference Registration", email_body, abstract_file):
-                st.success(f"Thank you for registering, {full_name}! We have received your information and abstract.")
+            if send_email("hssaiudl@gmail.com", "New Conference Registration", email_body, abstract_file):
+                st.success(f"""
+                Thank you for registering, {full_name}!,  We have successfully received your information and abstract.
+                If the email address you provided is correct, you will receive a confirmation email shortly. 
+                If you have any questions or need to make any changes, please feel free to contact us directly at hssaiudl@gmail.com or by phone at +213 541 531 962.
+                """)
+                body = f"""
+                Dear t_{full_name},
+
+                Thank you for submitting your information and abstract for the {translate('page_title')} scheduled to take place on 26-27 Fabruary 2025 at Djillali Liabes University, Sid Bel Abbes. We are excited to have you as part of this event!
+
+                ## Submission Details
+                We have successfully received your submission, which includes:
+                - **Title of Paper:** {paper_title}
+
+                ## Next Steps
+                Our review committee will evaluate all submissions, and we will notify you of the acceptance status by January 10, 2025. If accepted, you will be provided with further details regarding presentation guidelines and registration.
+
+                
+                If you have any questions or require further information, please do not hesitate to reach out to us at hssaiudl@gmail.com or +213 541 531 962.
+
+                Thank you once again for your contribution. We look forward to a successful conference and appreciate your participation!
+
+                Best regards,
+
+                DR. Metales Aicha
+                Conference Chair
+                """
+                send_email(email, "Confirmation of Your Conference Submission", body):
+
             else:
                 st.error("There was an error processing your registration. Please try again later.")
 
@@ -356,7 +384,7 @@ st.markdown(
         }
     </style>
     <div class="footer">
-        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+        <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213541531962</p>
     </div>
     """,
     unsafe_allow_html=True
