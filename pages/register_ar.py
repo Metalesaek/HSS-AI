@@ -8,6 +8,10 @@ from email.mime.application import MIMEApplication
 import pandas as pd
 import base64
 import time
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 st.set_page_config(initial_sidebar_state="collapsed")
 
@@ -221,9 +225,10 @@ def send_email(to_email, subject, body, attachment=None):
     # Email configuration
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_username = st.secrets["email"]["username"]
-    smtp_password = st.secrets["email"]["password"]
-
+    # smtp_username = st.secrets["email"]["username"]
+    # smtp_password = st.secrets["email"]["password"]
+    smtp_username = os.getenv("USERNAME")
+    smtp_password = os.getenv("PASSWORD")
     msg = MIMEMultipart()
     msg['From'] = smtp_username
     msg['To'] = to_email
