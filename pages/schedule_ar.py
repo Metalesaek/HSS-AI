@@ -256,7 +256,7 @@ st.markdown(
         }
     </style>
     <div class="footer">
-        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+        <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213 668 11 31 31</p>
     </div>
     """,
     unsafe_allow_html=True

@@ -239,8 +239,8 @@ if st.session_state.language == "en":
 	- Papers may be in Arabic, English, or French.
 	
 	### Contact Information:
-	- Phone: +213541531962
-	- Email: hssai2024@gmail.com
+	- Phone: +213 668 11 31 31
+	- Email: hssaiudl@gmail.com
 	""")
 	st.markdown("""
 	## Personal Information
@@ -375,8 +375,8 @@ elif st.session_state.language == "fr":
     - Les articles peuvent être en arabe, anglais ou français.
 
     ### Informations de Contact :
-    - Téléphone : +213541531962
-    - Email : hssai2024@gmail.com
+    - Téléphone : +213 668 11 31 31
+    - Email : hssaiudl@gmail.com
     """)
 	st.markdown("""
 	## Informations Personnelles
@@ -509,13 +509,10 @@ else:
 	- تقبل المشاركات الفردية والثنائية.
 	- تقبل المداخلات باللغات العربية والإنجليزية والفرنسية.
 
-	للتسجيل يرجى زيارة الموقع التالي: 
-	https:// 
-
 	## للتواصل والاستفسار:
 
-	- رقم الهاتف: +213541531962
-	- البريد الإلكتروني: hssai2024@gmail.com
+	- رقم الهاتف: **213668113131+**
+	- البريد الإلكتروني: hssaiudl@gmail.com
 
 	نتطلع لاستقبال أبحاث مميزة تساهم في دعم أهداف الملتقى ودفع عجلة البحث العلمي في مجالات الذكاء الاصطناعي والمسؤولية الاجتماعية.
 		""")
@@ -625,7 +622,7 @@ st.markdown(
         }
     </style>
     <div class="footer">
-        <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213541531962</p>
+        <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213 668 11 31 31</p>
     </div>
     """,
     unsafe_allow_html=True

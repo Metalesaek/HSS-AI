@@ -261,6 +261,16 @@ This section explores the ethical, legal, and political questions that arise as 
 4. Address inequality and bias by understanding the social and cultural contexts in which humans and intelligent systems interact.
 5. Foster awareness of modern technologies, promoting public understanding and resilience against misinformation and biases.
 
+### Supervisory Board of the Conference:
+- **Honorary President of the Conference**: Prof. Dr. Bouziani Marahi / Director of Djilali Liabes University (Sidi Bel Abbès)
+- **General Supervisor of the Conference**: Prof. Dr. Ahmad Qada / Dean of the Faculty of Humanities and Social Sciences
+- **General Coordinator of the Conference**: Dr. Mrahi Said
+- **President of the Conference**: Dr. Metales Aicha
+- **Chairperson of the Scientific Committee**: Dr. Lahaj Ahmad Karima
+- **Chairperson of the Organizing Committee**: Dr. Omar Osama
+- **Scheduled Date for the Conference**: 26-27 February 2025
+
+
 """)
 
 # Footer section
@@ -278,7 +288,7 @@ st.markdown(
         }
     </style>
     <div class="footer">
-        <p>Contact us at: <a href="mailto:hssai2024@gmail.com">hssai2024@gmail.com</a> | Phone: +213541531962</p>
+        <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213 668 11 31 31</p>
     </div>
     """,
     unsafe_allow_html=True
