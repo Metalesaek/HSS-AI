@@ -194,6 +194,57 @@ elif page == translate("register"):
 # elif page == translate("logout"):
 # 	navigate_to("logout")
 
+st.markdown("""
+<style>
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+    .schedule-title {
+        color: #e28743;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .schedule-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    .schedule-table th, .schedule-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+    .schedule-table th {
+        background-color: #e28743;
+        color: white;
+    }
+    .schedule-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .navigation-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .nav-button {
+        background-color: #e28743;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown(
     """
     <div style="display: flex; justify-content: center;">
@@ -208,6 +259,7 @@ if st.session_state.language == "en":
 if st.session_state.language == "ar":
     navigate_to("schedule")
 
+
 st.markdown(f"<h5 style='color:rgb(226,135,67);'>Programme de la Conférence</h5>", unsafe_allow_html=True)
 
 
@@ -218,8 +270,12 @@ schedule_data = {
 
 df = pd.DataFrame(schedule_data)
 
-# Display table
-st.table(df)
+# Display schedule as a styled table
+st.markdown(df.to_html(index=False, classes='schedule-table'), unsafe_allow_html=True)
+
+
+
+
 
 # Footer section
 st.markdown(

@@ -311,7 +311,7 @@ if st.button("التسجيل"):
             #     st.success(f"شكرًا لتسجيلك، {full_name}! لقد تلقينا معلوماتك وملخص البحث.")
             # else:
             #     st.error("حدث خطأ أثناء معالجة تسجيلك. يرجى المحاولة مرة أخرى لاحقًا.")
-            if send_email("hssaiudl@gmail.com", "New Conference Registration", email_body, paper_file):+213 668 11 31 31
+            if send_email("hssaiudl@gmail.com", "New Conference Registration", email_body, paper_file):
                 st.success(f"""
                 شكرًا لتسجيلك، {full_name}!
                 لقد استلمنا بنجاح معلوماتك والمقال الخاص بك. 

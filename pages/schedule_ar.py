@@ -194,10 +194,67 @@ elif page == translate("register"):
 # elif page == translate("logout"):
 # 	navigate_to("logout")
 
+
+
+# Custom CSS for the schedule page
+st.markdown("""
+<style>
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+    .schedule-title {
+        color: #e28743;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .schedule-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    .schedule-table th, .schedule-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+       
+    }
+    .schedule-table th {
+        background-color: #e28743;
+        color: white;
+        
+    }
+    .schedule-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+       
+    }
+    .navigation-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .nav-button {
+        background-color: #e28743;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown(
     """
-    <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{}" width="70">
+    <div class="logo-container">
+        <img src="data:image/png;base64,{}" width="70" class="logo">
     </div>
     """.format(base64.b64encode(open("logo_univ.png", "rb").read()).decode()),
     unsafe_allow_html=True
@@ -208,9 +265,11 @@ if st.session_state.language == "fr":
 if st.session_state.language == "en":
     navigate_to("schedule")
 
-st.markdown(f"<h5 style='color:rgb(226,135,67);'>جدول المؤتمر</h5>", unsafe_allow_html=True)
+
+st.markdown("<h1 class='schedule-title'>جدول الملتقى</h1>", unsafe_allow_html=True)
 
 
+# Schedule data
 schedule_data = {
     "التاريخ": ["15 يناير 2025", "10 فبراير 2025"],
     "الفعاليات": ["الموعد النهائي لتقديم الأوراق الكاملة", "إعلان البرنامج النهائي"]
@@ -236,9 +295,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Display schedule as a styled table
+st.markdown(df.to_html(index=False, classes='schedule-table'), unsafe_allow_html=True)
 
-# Display table
-st.table(df)
 
 # Footer section
 st.markdown(

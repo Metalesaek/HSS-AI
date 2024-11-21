@@ -106,81 +106,16 @@ translations = {
     }
 }
 
-st.markdown(f"""
-<style>
-    body {{
-        font-family: 'Arial', sans-serif;
-        color: #333;
-        line-height: 1.6;
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-    .main {{
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        border-radius: 8px;
-    }}
-    .title {{
-        color: #e28743;
-        font-size: 28px;
-        text-align: center;
-        margin-bottom: 10px;
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-    .subtitle {{
-        color: #4a4a4a;
-        font-size: 22px;
-        text-align: center;
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-    h3 {{
-        color: #e28743;
-        border-bottom: 2px solid #e28743;
-        padding-bottom: 10px;
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-    .important-dates {{
-        background-color: #f9f9f9;
-        padding: 15px;
-        border-radius: 5px;
-        margin-top: 20px;
-    }}
-    .contact-info {{
-        background-color: #e28743;
-        color: white;
-        padding: 15px;
-        border-radius: 5px;
-        margin-top: 20px;
-    }}
-    table {{
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-    }}
-    th, td {{
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: {'right' if st.session_state.language == 'ar' else 'left'};
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-    th {{
-        background-color: #e28743;
-        color: white;
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-    tr:nth-child(even) {{
-        background-color: #f2f2f2;
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-</style>
-""", unsafe_allow_html=True)
-# Main content
-
-
-
-
+st.markdown(
+    """
+    <style>
+    body {
+        direction: """ + ('rtl' if st.session_state.language == 'ar' else 'ltr') + """;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 def cycle_language():
 	current_lang = st.session_state.language
@@ -262,15 +197,8 @@ elif page == translate("register"):
 
 #st.image("logo_aicha.jpeg", width=300)
 
-
-
-
-
-
 if st.session_state.language == "en":
-	st.markdown('<div class="main">', unsafe_allow_html=True)
-	#st.image("coloq_english.jpeg", width=300)
-	st.markdown(f"<h1 class='title'>Invitation to Participate in the International Conference:</h1>", unsafe_allow_html=True)
+	st.markdown(f"<center><h5 style='color:rgb(226,135,67);'>Invitation to Participate in the International Conference:</h5></center>", unsafe_allow_html=True)
 	
 	st.markdown(
     """
@@ -282,8 +210,8 @@ if st.session_state.language == "en":
 	)
 	
 
-	st.markdown(f"<h1 class='title'>{translate('page_title')}</h1>", unsafe_allow_html=True)
-	st.markdown(f"<h2 class='subtitle'>{translate('rest_title')}</h2>", unsafe_allow_html=True)
+	st.markdown(f"<center><h3>{translate('page_title')}</h3></center>", unsafe_allow_html=True)
+	st.markdown(f"<center><h4>{translate('rest_title')}</h4></center>", unsafe_allow_html=True)
 
 	st.markdown("""
 	The University of Djilali Liabes, Sidi Bel Abbes, Faculty of Humanities and Social Sciences, Department of Media and Communication, is pleased to invite you to participate in this international conference on February 26–27, 2025.
@@ -312,7 +240,6 @@ if st.session_state.language == "en":
 	### Contact Information:
 	- Phone: +213 668 11 31 31
 	- Email: hssaiudl@gmail.com
-	
 	""")
 	st.markdown("""
 
@@ -362,8 +289,8 @@ if st.session_state.language == "en":
 
 	## Members of the Scientific Committee from Abroad
 
-	| Name and Surname | Role | Specialty | Institution | 
-	|------------------|------|-----------|-------------|
+	| Name and Surname | Role | Specialty | Institution | Email |
+	|------------------|------|-----------|-------------|-------|
 	| Prof. Nour El Din Hamed | Member | | Al-Jouf University, Saudi Arabia |
 	| Prof. Mehmet Zeki Aydin | Member | Education Sciences | Selcuk University, Turkey | 
 	| Prof. Rasha Abdel Fattah El-Didi | Member | Psychology | Ain Shams University, Egypt | 
@@ -372,16 +299,13 @@ if st.session_state.language == "en":
 	| Dr. Khaled Harzib | Member | Mathematics | Paderborn University, Germany | 
 	| Dr. Reda Abdel Wahid El-Amin | Member | Media and Communication Sciences | Al-Azhar University, Egypt | 
 	| Dr. Amal Saad El-Motwali Osman | Member | Media and Communication Sciences | Mansoura University, Egypt |
-	| Dr. Abdel Latif Bel-Tayeb | Member | Mathematics | Saudi Arabia | 
+	| Dr. Abdel Latif Bel-Tayeb | Member | Mathematics | Saudi Arabia | abdellatif.bettayab@gmail.com |
 	""")
 
-	# Close the main div
-	st.markdown('</div>', unsafe_allow_html=True)
+
 
 elif st.session_state.language == "fr":
-	st.markdown('<div class="main">', unsafe_allow_html=True)
-	#st.image("coloq_english.jpeg", width=300)
-	st.markdown(f"<h1 class='title'>Invitation à participer à la conférence internationale :</h1>", unsafe_allow_html=True)
+	st.markdown(f"<center><h5 style='color:rgb(226,135,67);'>Invitation à participer à la conférence internationale :</h5></center>", unsafe_allow_html=True)
 	
 	st.markdown(
     """
@@ -392,9 +316,8 @@ elif st.session_state.language == "fr":
     unsafe_allow_html=True
 	)
 	
-	st.markdown(f"<h1 class='title'>{translate('page_title')}</h1>", unsafe_allow_html=True)
-	st.markdown(f"<h2 class='subtitle'>{translate('rest_title')}</h2>", unsafe_allow_html=True)
-
+	st.markdown(f"<center><h3>{translate('page_title')}</h3></center>", unsafe_allow_html=True)
+	st.markdown(f"<center><h4>{translate('rest_title')}</h4></center>", unsafe_allow_html=True)
 	st.markdown("""
     L'Université Djilali Liabes de Sidi Bel Abbes, Faculté des Sciences Humaines et Sociales, Département des Sciences de l'Information et de la Communication, a le plaisir de vous inviter à participer à cette conférence internationale qui se tiendra les 26 et 27 février 2025.
 
@@ -418,11 +341,10 @@ elif st.session_state.language == "fr":
     - Les soumissions doivent être originales et non publiées.
     - Les soumissions individuelles et en co-auteur sont les bienvenues.
     - Les articles peuvent être en arabe, anglais ou français.
-	
+
     ### Informations de Contact :
     - Téléphone : +213 668 11 31 31
     - Email : hssaiudl@gmail.com
-	
     """)
 	st.markdown("""
 	
@@ -481,14 +403,10 @@ elif st.session_state.language == "fr":
 	| Prof. Rasha Abdel Fattah El-Didy | Membre | Psychologie | Université Ain Shams, Égypte | 
 	| Dr. Rahima Aissani | Membre | Sciences de l'information et de la communication | Université Al Ain, Émirats Arabes Unis | 
 	""")
-	# Close the main div
-	st.markdown('</div>', unsafe_allow_html=True)
 
 
 else:
-	st.markdown('<div class="main">', unsafe_allow_html=True)
-	#st.image("coloq_english.jpeg", width=300)
-	st.markdown(f"<h1 class='title'>دعوة للمشاركة في الملتقى العلمي الدولي الموسوم:</h1>", unsafe_allow_html=True)
+	st.markdown(f"<center><h5 style='color:rgb(226,135,67);'>دعوة للمشاركة في الملتقى العلمي الدولي الموسوم:</h5></center>", unsafe_allow_html=True)
 	
 	st.markdown(
     """
@@ -499,19 +417,17 @@ else:
     unsafe_allow_html=True
 	)
 	
-	st.markdown(f"<h1 class='title'>{translate('page_title')}</h1>", unsafe_allow_html=True)
-	st.markdown(f"<h2 class='subtitle'>{translate('rest_title')}</h2>", unsafe_allow_html=True)
-
-
+	st.markdown(f"<center><h3>{translate('page_title')}</h3></center>", unsafe_allow_html=True)
+	st.markdown(f"<center><h4>{translate('rest_title')}</h4></center>", unsafe_allow_html=True)
 	st.markdown("""
 
-	### العلوم الإنسانية والاجتماعية وعلاقتها بأبحاث الذكاء الاصطناعي: نحو ذكاء اصطناعي مسؤول ومستدام
+	## العلوم الإنسانية والاجتماعية وعلاقتها بأبحاث الذكاء الاصطناعي: نحو ذكاء اصطناعي مسؤول ومستدام
 
 	يسر جامعة جيلالي ليابس، سيدي بلعباس، كلية العلوم الإنسانية والاجتماعية، قسم علوم الإعلام والاتصال، دعوتكم للمشاركة في الملتقى الدولي الموسوم ب "العلوم الإنسانية والاجتماعية وعلاقتها بأبحاث الذكاء الاصطناعي: نحو ذكاء اصطناعي مسؤول ومستدام"، الذي سيُعقد يومي 26 و27 فبراير 2025.
 
 	يهدف هذا الملتقى إلى تسليط الضوء على الدور الحيوي لهذه العلوم في توجيه وتطوير أبحاث الذكاء الاصطناعي بما يتماشى مع القيم الإنسانية ويلبي متطلبات التنمية المستدامة، من خلال بناء جسور التعاون بين الباحثين والمتخصصين من جميع أنحاء العالم لتبادل الأفكار حول كيفية المساهمة في تطوير ذكاء اصطناعي بشكل يخدم المجتمع ويدعم الاستدامة.
 
-	### أهداف الملتقى:
+	## أهداف الملتقى:
 
 	1. التأكيد على أهمية العلوم الإنسانية والاجتماعية في تطوير أبحاث الذكاء الاصطناعي بما يحقق التوازن بين الفوائد والمخاطر على الأفراد والمجتمعات.
 	2. فهم تأثير الذكاء الاصطناعي على الجوانب الاجتماعية والثقافية والأخلاقية والقانونية، وتوجيه تطويره بما يتوافق مع الاحتياجات والقيم الانسانية.
@@ -519,26 +435,24 @@ else:
 	4. التخفيف من حدة التفاوت والتحيزات من خلال الفهم العميق للبنى الاجتماعية والسياقات الثقافية التي تجري فيها التفاعلات بين الأفراد والأنظمة الذكية.
 	5. تعزيز الفهم وزيادة وعي الأفراد والمجتمعات بالتقنيات الحديثة لمواكبة التطورات المتسارعة وذلك عبر تزويدهم بالمعلومات الموثوقة والدقيقة ومكافحة الأخبار الكاذبة والمضللة والتحيزات.
 
-	### مواعيد هامة:
+	## مواعيد هامة:
 
 	- آخر أجل لإرسال المداخلات كاملة: 15/01/2025   
 	- الإعلان عن البرنامج النهائي للملتقى: 10/02/2025
 
-	### شروط المشاركة:
+	## شروط المشاركة:
 
 	- المشاركة مفتوحة لجميع الأساتذة وطلبة الدكتوراه والباحثين في الجامعات والمؤسسات الأكاديمية.
 	- أن يدرج الموضوع ضمن أحد محاور الملتقى
 	- أن لا يكون البحث قد سبق نشره أو المشاركة به.
 	- تقبل المشاركات الفردية والثنائية.
 	- تقبل المداخلات باللغات العربية والإنجليزية والفرنسية.
-	
 
-	### للتواصل والاستفسار:
+	## للتواصل والاستفسار:
 
 	- رقم الهاتف: **213668113131+**
 	- البريد الإلكتروني: hssaiudl@gmail.com
-	
-	
+
 	نتطلع لاستقبال أبحاث مميزة تساهم في دعم أهداف الملتقى ودفع عجلة البحث العلمي في مجالات الذكاء الاصطناعي والمسؤولية الاجتماعية.
 		""")
 	st.markdown("""
@@ -602,8 +516,6 @@ else:
 	| د/ أمال سعد المتولي عثمان | عضو | علوم الاعلام والاتصال | جامعة المنصورة - مصر | 
 	| د/ عبد اللطيف بالطيب | عضو | الرياضيات | المملكة العربية السعودية | 
 	""")
-	# Close the main div
-	st.markdown('</div>', unsafe_allow_html=True)
 
 
 # Footer section

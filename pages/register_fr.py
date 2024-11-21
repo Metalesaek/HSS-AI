@@ -275,7 +275,7 @@ conference_theme = st.selectbox("Thème de la conférence", ["Thème 1 : Le rôl
                                                        "Thème 5 : Médias et communication pour sensibiliser à l'IA",
                                                        "Thème 6 : Impacts économiques et développement durable", 
                                                        "Thème 7 : Considérations éthiques, juridiques et politiques dans le développement de l'IA"])
-paper_file = st.file_uploader("Télécharger le résumé (fichier PDF, DOCX ou DOC, 100-150 mots)", type=["pdf", "docx", "doc"])
+paper_file = st.file_uploader("Télécharger l article (fichier PDF, DOCX ou DOC, 100-150 mots)", type=["pdf", "docx", "doc"])
 
 if st.button("S'inscrire"):
     if email != confirm_email:
