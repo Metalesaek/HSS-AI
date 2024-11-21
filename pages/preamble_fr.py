@@ -266,12 +266,12 @@ Cette section explore les questions éthiques, juridiques et politiques qui surg
 5. Favoriser la sensibilisation aux technologies modernes, en promouvant la compréhension du public et la résilience face à la désinformation et aux préjugés.
 
 ### Comité de supervision de la conférence
-- **Président d'honneur de la conférence** : Pr. Dr. Bouziani Marahi / Directeur de l'Université Djilali Liabes (Sidi Bel Abbès)
-- **Superviseur général de la conférence** : Pr. Dr. Ahmad Qada / Doyen de la Faculté des Sciences Humaines et Sociales
-- **Coordinateur général de la conférence** : Dr. Mrahi Said
+- **Président d'honneur de la conférence** : Pr. Bouziani Marahi / Directeur de l'Université Djilali Liabes (Sidi Bel Abbès)
+- **Superviseur général de la conférence** : Pr. Al-Ahmar Qadah / Doyen de la Faculté des Sciences Humaines et Sociales
+- **Coordinateur général de la conférence** : Dr. Merah Said
 - **Présidente de la conférence** : Dr. Metales Aicha
-- **Présidente du comité scientifique** : Dr. Lahaj Ahmad Karima
-- **Président du comité d'organisation** : Dr. Omar Osama
+- **Présidente du comité scientifique** : Dr. Lhadj Ahmad Karima
+- **Président du comité d'organisation** : Dr. Omar Oussama
 - **Date prévue pour la conférence** : 26-27 février 2025
 
 """)

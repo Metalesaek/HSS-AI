@@ -287,7 +287,6 @@ if st.session_state.language == "en":
 
 	st.markdown("""
 	The University of Djilali Liabes, Sidi Bel Abbes, Faculty of Humanities and Social Sciences, Department of Media and Communication, is pleased to invite you to participate in this international conference on February 26–27, 2025.
-	
 	### Conference Overview:
 	This conference aims to emphasize the vital role of humanities and social sciences in shaping AI research in alignment with human values and sustainable development goals.
 	
@@ -300,6 +299,7 @@ if st.session_state.language == "en":
 	
 	### Important Dates:
 	- Full paper submissions deadline: January 15, 2025
+	- Responding to accepted papers: January 30, 2025
 	- Final program announcement: February 10, 2025
 	
 	### Participation Guidelines:
@@ -395,35 +395,35 @@ elif st.session_state.language == "fr":
 	st.markdown(f"<h1 class='title'>{translate('page_title')}</h1>", unsafe_allow_html=True)
 	st.markdown(f"<h2 class='subtitle'>{translate('rest_title')}</h2>", unsafe_allow_html=True)
 
-	st.markdown("""
-    L'Université Djilali Liabes de Sidi Bel Abbes, Faculté des Sciences Humaines et Sociales, Département des Sciences de l'Information et de la Communication, a le plaisir de vous inviter à participer à cette conférence internationale qui se tiendra les 26 et 27 février 2025.
-
-    ### Aperçu de la Conférence :
-    Cette conférence vise à souligner le rôle vital des sciences humaines et sociales dans l'orientation de la recherche en IA en accord avec les valeurs humaines et les objectifs de développement durable.
-
-    ### Objectifs de la Conférence :
-    1. Mettre en évidence l'importance des sciences humaines et sociales dans la recherche en IA.
-    2. Explorer l'impact de l'IA sur les dimensions sociales, culturelles, éthiques et juridiques.
-    3. Encourager la collaboration interdisciplinaire.
-    4. Aborder les inégalités et les biais dans le développement de l'IA.
-    5. Sensibiliser aux technologies émergentes.
-
-    ### Dates Importantes :
-    - Date limite de soumission des articles complets : 15 janvier 2025
-    - Annonce du programme final : 10 février 2025
-
-    ### Directives de Participation :
-    - Ouvert aux professeurs, doctorants et chercheurs.
-    - Les sujets de recherche doivent s'aligner sur les thèmes de la conférence.
-    - Les soumissions doivent être originales et non publiées.
-    - Les soumissions individuelles et en co-auteur sont les bienvenues.
-    - Les articles peuvent être en arabe, anglais ou français.
+	st.markdown(r"""
+	L'Université Djilali Liabes de Sidi Bel Abbes, Faculté des Sciences Humaines et Sociales, Département des Sciences de l'Information et de la Communication, a le plaisir de vous inviter à participer à cette conférence internationale qui se tiendra les 26 et 27 février 2025.
+	### Aperçu de la Conférence:
+	Cette conférence vise à souligner le rôle vital des sciences humaines et sociales dans l'orientation de la recherche en IA en accord avec les valeurs humaines et les objectifs de développement durable.
 	
-    ### Informations de Contact :
-    - Téléphone : +213 668 11 31 31
-    - Email : hssaiudl@gmail.com
+	### Objectifs de la Conférence:
+	1. Mettre en évidence l'importance des sciences humaines et sociales dans la recherche en IA.
+	2. Explorer l'impact de l'IA sur les dimensions sociales, culturelles, éthiques et juridiques.
+	3. Encourager la collaboration interdisciplinaire.
+	4. Aborder les inégalités et les biais dans le développement de l'IA.
+	5. Sensibiliser aux technologies émergentes.
 	
-    """)
+	### Dates Importantes :
+	- Date limite de soumission des articles complets : 15 janvier 2025
+	- Réponse aux articles acceptés : 30 janvier 2025
+	- Annonce du programme final : 10 février 2025
+	
+	### Directives de Participation :
+	- Ouvert aux professeurs, doctorants et chercheurs.
+	- Les sujets de recherche doivent s'aligner sur les thèmes de la conférence.
+	- Les soumissions doivent être originales et non publiées.
+	- Les soumissions individuelles et en co-auteur sont les bienvenues.
+	- Les articles peuvent être en arabe, anglais ou français.
+	
+	### Informations de Contact :
+	- Téléphone : +213 668 11 31 31
+	- Email : hssaiudl@gmail.com
+	""")	
+
 	st.markdown("""
 	
 
@@ -521,7 +521,8 @@ else:
 
 	### مواعيد هامة:
 
-	- آخر أجل لإرسال المداخلات كاملة: 15/01/2025   
+	- آخر أجل لإرسال المداخلات كاملة: 15/01/2025  
+	- الرد على المداخلات المقبولة: 30/01/2025  
 	- الإعلان عن البرنامج النهائي للملتقى: 10/02/2025
 
 	### شروط المشاركة:

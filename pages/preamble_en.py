@@ -262,12 +262,12 @@ This section explores the ethical, legal, and political questions that arise as 
 5. Foster awareness of modern technologies, promoting public understanding and resilience against misinformation and biases.
 
 ### Supervisory Board of the Conference:
-- **Honorary President of the Conference**: Prof. Dr. Bouziani Marahi / Director of Djilali Liabes University (Sidi Bel Abbès)
-- **General Supervisor of the Conference**: Prof. Dr. Ahmad Qada / Dean of the Faculty of Humanities and Social Sciences
-- **General Coordinator of the Conference**: Dr. Mrahi Said
+- **Honorary President of the Conference**: Prof. Bouziani Marahi / Director of Djilali Liabes University (Sidi Bel Abbès)
+- **General Supervisor of the Conference**: Prof. Al-Ahmar Qadah / Dean of the Faculty of Humanities and Social Sciences
+- **General Coordinator of the Conference**: Dr. Merah Said
 - **President of the Conference**: Dr. Metales Aicha
-- **Chairperson of the Scientific Committee**: Dr. Lahaj Ahmad Karima
-- **Chairperson of the Organizing Committee**: Dr. Omar Osama
+- **Chairperson of the Scientific Committee**: Dr. Lhadj Ahmad Karima
+- **Chairperson of the Organizing Committee**: Dr. Omar Oussama
 - **Scheduled Date for the Conference**: 26-27 February 2025
 
 

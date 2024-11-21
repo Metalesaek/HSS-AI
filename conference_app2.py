@@ -538,3 +538,35 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
+st.markdown("""
+    L'Université Djilali Liabes de Sidi Bel Abbes, Faculté des Sciences Humaines et Sociales, Département des Sciences de l'Information et de la Communication, a le plaisir de vous inviter à participer à cette conférence internationale qui se tiendra les 26 et 27 février 2025.
+
+	### Aperçu de la Conférence :
+    Cette conférence vise à souligner le rôle vital des sciences humaines et sociales dans l'orientation de la recherche en IA en accord avec les valeurs humaines et les objectifs de développement durable.
+
+  	### Objectifs de la Conférence :
+    1. Mettre en évidence l'importance des sciences humaines et sociales dans la recherche en IA.
+	2. Explorer l'impact de l'IA sur les dimensions sociales, culturelles, éthiques et juridiques.
+	3. Encourager la collaboration interdisciplinaire.
+    4. Aborder les inégalités et les biais dans le développement de l'IA.
+    5. Sensibiliser aux technologies émergentes.
+
+	### Dates Importantes :
+	- Date limite de soumission des articles complets : 15 janvier 2025
+	- Réponse aux articles acceptés : 30 janvier 2025
+	- Annonce du programme final : 10 février 2025
+
+	### Directives de Participation :
+	- Ouvert aux professeurs, doctorants et chercheurs.
+	- Les sujets de recherche doivent s'aligner sur les thèmes de la conférence.
+	- Les soumissions doivent être originales et non publiées.
+	- Les soumissions individuelles et en co-auteur sont les bienvenues.
+	- Les articles peuvent être en arabe, anglais ou français.
+
+	### Contact Information:
+	- Phone: +213 668 11 31 31
+	- Email: hssaiudl@gmail.com
+	
+	""")

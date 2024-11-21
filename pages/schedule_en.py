@@ -266,8 +266,8 @@ st.markdown("<h1 class='schedule-title'>Conference Schedule</h1>", unsafe_allow_
 
 # Schedule data
 schedule_data = {
-    "Date": ["January 15, 2025", "February 10, 2025"],
-    "Events": ["Deadline for full paper submissions", "Announcement of the final program"]
+    "Date": ["January 15, 2025","January 30, 2025" ,"February 10, 2025"],
+    "Events": ["Deadline for full paper submissions","Responding to accepted papers" ,"Announcement of the final program"]
 }
 
 df = pd.DataFrame(schedule_data)

@@ -264,8 +264,8 @@ st.markdown(f"<h5 style='color:rgb(226,135,67);'>Programme de la Conférence</h5
 
 
 schedule_data = {
-    "Date": ["15 janvier 2025", "10 février 2025"],
-    "Événements": ["Date limite pour la soumission des articles complets", "Annonce du programme final"]
+    "Date": ["15 janvier 2025","30 janvier 2025" ,"10 février 2025"],
+    "Événements": ["Date limite pour la soumission des articles complets","Réponse aux articles acceptés" , "Annonce du programme final"]
 }
 
 df = pd.DataFrame(schedule_data)
