@@ -213,9 +213,8 @@ st.markdown(f"<h5 style='color:rgb(226,135,67);'>Conference Schedule</h5>", unsa
 
 
 schedule_data = {
-    "Date": ["January 1, 2025", "January 10, 2025", "January 30, 2025", "February 10, 2025"],
-    "Events": ["Deadline for abstract submissions", "Notification of accepted abstracts", 
-    "Deadline for full paper submissions", "Announcement of the final program"]
+    "Date": ["January 15, 2025", "February 10, 2025"],
+    "Events": ["Deadline for full paper submissions", "Announcement of the final program"]
 }
 
 df = pd.DataFrame(schedule_data)

@@ -275,17 +275,17 @@ conference_theme = st.selectbox("Thème de la conférence", ["Thème 1 : Le rôl
                                                        "Thème 5 : Médias et communication pour sensibiliser à l'IA",
                                                        "Thème 6 : Impacts économiques et développement durable", 
                                                        "Thème 7 : Considérations éthiques, juridiques et politiques dans le développement de l'IA"])
-abstract_file = st.file_uploader("Télécharger le résumé (fichier PDF, DOCX ou DOC, 100-150 mots)", type=["pdf", "docx", "doc"])
+paper_file = st.file_uploader("Télécharger le résumé (fichier PDF, DOCX ou DOC, 100-150 mots)", type=["pdf", "docx", "doc"])
 
 if st.button("S'inscrire"):
     if email != confirm_email:
         st.error("Les adresses e-mail ne correspondent pas. Veuillez vérifier et réessayer.")
-    elif full_name and academic_degree and specialization and current_position and institution and country and nationality and email and confirm_email and phone and paper_title and keywords and conference_theme and abstract_file:
+    elif full_name and academic_degree and specialization and current_position and institution and country and nationality and email and confirm_email and phone and paper_title and keywords and conference_theme and paper_file:
         # Save the uploaded file
-        #abstract_path = os.path.join("uploads", abstract_file.name)
+        #abstract_path = os.path.join("uploads", paper_file.name)
         with st.spinner("Téléchargement de vos informations..."):
             # with open(abstract_path, "wb") as f:
-            #     f.write(abstract_file.getbuffer())
+            #     f.write(paper_file.getbuffer())
             # Préparer le contenu de l'email
             email_body = f"""
             Nouvelle inscription à la conférence :
@@ -303,33 +303,33 @@ if st.button("S'inscrire"):
             Mots-clés : {keywords}
             Thème de la conférence : {conference_theme}
 
-            Le fichier du résumé est ci-joint.
+            Le fichier est ci-joint.
             """
 
 
             # Envoyer l'email
-            # if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
+            # if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, paper_file):
             #     st.success(f"Merci pour votre inscription, {full_name} ! Nous avons bien reçu vos informations et votre résumé.")
             # else:
             #     st.error("Une erreur s'est produite lors du traitement de votre inscription. Veuillez réessayer plus tard.")
-            if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, abstract_file):
+            if send_email("hssaiudl@gmail.com", "Nouvelle inscription à la conférence", email_body, paper_file):
                 st.success(f"""
-                Merci pour votre inscription, {full_name} !, Nous avons bien reçu vos informations et votre résumé.
+                Merci pour votre inscription, {full_name} !, Nous avons bien reçu vos informations et votre article.
                 Si l'adresse e-mail que vous avez fournie est correcte, vous recevrez un e-mail de confirmation sous peu.
-                Si vous avez des questions ou besoin d'apporter des modifications, n'hésitez pas à nous contacter directement à hssaiudl@gmail.com ou par téléphone au +213 541 531 962.
+                Si vous avez des questions ou besoin d'apporter des modifications, n'hésitez pas à nous contacter directement à hssaiudl@gmail.com ou par téléphone au +213 668 11 31 31.
                 """)
                 body = f"""
                 Cher(e) {full_name},
 
-                Merci d'avoir soumis vos informations et votre résumé pour {translate('page_title')} qui se tiendra les 26-27 février 2025 à l'Université Djillali Liabes, Sidi Bel Abbès. Nous sommes ravis de vous compter parmi les participants !
+                Merci d'avoir soumis vos informations et votre article pour {translate('page_title')} qui se tiendra les 26-27 février 2025 à l'Université Djillali Liabes, Sidi Bel Abbès. Nous sommes ravis de vous compter parmi les participants !
 
                 Détails de la soumission:
                 Nous avons bien reçu votre soumission, qui comprend :
                 
                 Titre de l'article : {paper_title}
 
-                Prochaines étape:
-                Notre comité de révision évaluera toutes les soumissions et vous informera du statut d'acceptation avant le 10 janvier 2025. Si votre soumission est acceptée, vous recevrez plus de détails concernant les directives de présentation et l'inscription.
+                
+                Notre comité de révision évaluera toutes les soumissions et vous informera du statut d'acceptation avant le 15 janvier 2025. Si votre soumission est acceptée, vous recevrez plus de détails concernant les directives de présentation et l'inscription.
 
                 Si vous avez des questions ou besoin d'informations complémentaires, n'hésitez pas à nous contacter à hssaiudl@gmail.com ou au +213 541 531 962.
 
@@ -350,7 +350,7 @@ if st.button("S'inscrire"):
             # Clean up the uploaded file
             #os.remove(abstract_path)
     else:
-        st.error("Veuillez remplir tous les champs et télécharger votre résumé.")
+        st.error("Veuillez remplir tous les champs et télécharger votre article.")
 
 # Footer section
 st.markdown(

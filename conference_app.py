@@ -226,9 +226,7 @@ if st.session_state.language == "en":
 	5. Raise awareness about emerging technologies.
 	
 	### Important Dates:
-	- Abstract submissions deadline: January 1, 2025
-	- Accepted abstracts notification: January 10, 2025
-	- Full paper submissions deadline: January 30, 2025
+	- Full paper submissions deadline: January 15, 2025
 	- Final program announcement: February 10, 2025
 	
 	### Participation Guidelines:
@@ -243,92 +241,63 @@ if st.session_state.language == "en":
 	- Email: hssaiudl@gmail.com
 	""")
 	st.markdown("""
-	## Personal Information
 
-	|  |  |
-	|-------------|-------|
-	| Name and Surname | Aisha Metales |
-	| Rank | Assistant Professor |
-	| Position | Professor |
-	| Email | metales.sic@gmail.com |
-	| Phone | 541531962 |
+	## Scientific Committee
 
-	## Part 3: Organizing Committee
-
-	| Name and Surname | Role | Institution | Email | Phone |
-	|------------------|------|-------------|-------|-------|
-	| Dr. Oussama Omar | President | University of Sidi Bel Abbes | oussama_sic@yahoo.fr | 676494906 |
-	| Aisha Metales | Member | University of Sidi Bel Abbes | metalesch12@gmail.com | 541531962 |
-	| Mustafa Djelti | Member | University of Sidi Bel Abbes | djelti.mostafa@yahoo.com | 675332071 |
-	| Said Marah | Member | University of Sidi Bel Abbes | said_telm13@gmail.fr | 668113131 |
-	| Karima Lahj Ahmed | Member | University of Sidi Bel Abbes | hadjahmedkarima@yahoo.fr | 659535111 |
-
-	### Doctoral Students
-
-	| Name and Surname | University | Email | Phone |
-	|------------------|------------|-------|-------|
-	| Ahmed Ben Aisha | University of Sidi Bel Abbes | benadoudie@gmail.com | 793178258 |
-	| Fatima Benafla | University of Sidi Bel Abbes | benaflawafaa@gmail.com | 697857039 |
-	| Rahima Bousheta | University of Sidi Bel Abbes | bouchetarahma@gmail.com | 555943688 |
-	| Amal Si Mohammed | University of Sidi Bel Abbes | simohammed0690@gmail.com | 540172749 |
-
-	## Part 4: Scientific Committee
-
-	| Name and Surname | Role | Specialty | Institution | Email |
-	|------------------|------|-----------|-------------|-------|
-	| Karima Lahj Ahmed | President | Media and Communication Sciences | University of Sidi Bel Abbes | hadjahmedkarima@yahoo.fr |
-	| Sid Ahmed Makhlouf | Member | Philosophy | University of Sidi Bel Abbes | makphilos@yahoo.fr |
-	| Zein El Abidin Maghrebi | Member | Philosophy | University of Sidi Bel Abbes | logiquezino@yahoo.fr |
-	| Nasreddine Bouziane | Member | Media and Communication Sciences | University of Constantine 3 | nasreddine.bouziane@univ-constantine3.dz |
-	| Jamal Ben Zerrouk | Member | Media and Communication Sciences | University of Skikda | benzeroukd@yahoo.fr |
-	| Said Marah | Member | Media and Communication Sciences | University of Sidi Bel Abbes | said_telm13@hotmail.fr |
-	| Wassila Ben Amr | Member | Psychology | University of Biskra | wassila.benameur@univ-biskra.dz |
-	| Abdenour Seddiki | Member | Sociology | University of Sidi Bel Abbes | seddikinour@yahoo.fr |
-	| Aisha Metales | Member | Media and Communication Sciences | University of Sidi Bel Abbes | metalesch12@gmail.com |
-	| Amal Khalaf | Member | Media and Communication Sciences | University of Sidi Bel Abbes | bdfamal1519@gmail.com |
-	| Mustafa Djelti | Member | Media and Communication Sciences | University of Sidi Bel Abbes | djelti.mostafa@yahoo.com |
-	| Soumia Berrahil | Member | Media and Communication Sciences | University of Oran 2 | soumia.berrahil@yahoo.fr |
-	| Mohammed Aghoulaiche | Member | Media and Communication Sciences | University of Sidi Bel Abbes | aghoulaiche.transfer@gmail.com |
-	| Mohammed Belhamiti | Member | Sociology | University of Sidi Bel Abbes | belhamiti@live.com |
-	| Haj Chaib | Member | Library Science | University of Saida | biblio.doc2001@gmail.com |
-	| Mokhtar Djlouli | Member | Media and Communication Sciences | University of Tiaret | mokhtardjl20@gmail.com |
-	| Oussama Omar | Member | Media and Communication Sciences | University of Sidi Bel Abbes | oussama_sic@yahoo.fr |
-	| Assma Regui | Member | Media and Communication Sciences | University of Sidi Bel Abbes | assoum_doctorat@hotmail.fr |
-	| Nassima Djemil | Member | Media and Communication Sciences | University of Oran 2 | djemilnassima@hotmail.com |
-	| Wassila Oudjdi Damirji | Member | Media and Communication Sciences | University of Sidi Bel Abbes | odw1987@gmail.com |
+	| Name and Surname | Role | Specialty | Institution |
+	|------------------|------|-----------|-------------|
+	| Karima Lahj Ahmed | President | Media and Communication Sciences | University of Sidi Bel Abbes | 
+	| Sid Ahmed Makhlouf | Member | Philosophy | University of Sidi Bel Abbes |
+	| Zein El Abidin Maghrebi | Member | Philosophy | University of Sidi Bel Abbes | 
+	| Nasreddine Bouziane | Member | Media and Communication Sciences | University of Constantine 3 | 
+	| Jamal Ben Zerrouk | Member | Media and Communication Sciences | University of Skikda | 
+	| Said Marah | Member | Media and Communication Sciences | University of Sidi Bel Abbes | 
+	| Wassila Ben Amr | Member | Psychology | University of Biskra | 
+	| Aisha Metales | Member | Media and Communication Sciences | University of Sidi Bel Abbes |
+	| Amal Khalaf | Member | Media and Communication Sciences | University of Sidi Bel Abbes |
+	| Mustafa Djelti | Member | Media and Communication Sciences | University of Sidi Bel Abbes |
+	| Soumia Berrahil | Member | Media and Communication Sciences | University of Oran 2 | 
+	| Mohammed Aghoulaiche | Member | Media and Communication Sciences | University of Sidi Bel Abbes | 
+	| Mohammed Belhamiti | Member | Sociology | University of Sidi Bel Abbes |
+	| Haj Chaib | Member | Library Science | University of Saida | 
+	| Mokhtar Djlouli | Member | Media and Communication Sciences | University of Tiaret | 
+	| Oussama Omar | Member | Media and Communication Sciences | University of Sidi Bel Abbes | 
+	| Assma Regui | Member | Media and Communication Sciences | University of Sidi Bel Abbes | 
+	| Nassima Djemil | Member | Media and Communication Sciences | University of Oran 2 | 
+	| Wassila Oudjdi Damirji | Member | Media and Communication Sciences | University of Sidi Bel Abbes | 
 	| Abdelkarim Rqiq | Member | Arts | University of Sidi Bel Abbes | siquou@yahoo.fr |
 	| Nabil Houari | Member | Media and Communication Sciences | University of Skikda | soheilhoura89@gmail.com |
-	| Souhila Bediaf | Member | Media and Communication Sciences | University of Skikda | bediafsouhila@gmail.com |
-	| Noor El Hoda Obada | Member | Media and Communication Sciences | University of Algiers 3 | n.nour74@yahoo.fr |
-	| Souad Lilia Ainsouya | Member | Media and Communication Sciences | University of Souk Ahras | lilia.ainsouya@yahoo.fr |
-	| Yassine Hebal | Member | Psychology | University of Sidi Bel Abbes | yacine_22000@hotmail.com |
-	| Imen Harfouch | Member | Media and Communication Sciences | University of Tlemcen | dr.imene.harfouche@gmail.com |
-	| Amina Ait El Hadj | Member | Media and Communication Sciences | University of El Oued | Aminaaitelhadj2020@gmail.com |
-	| Chahrazad Abbane | Member | Macroeconomics | University of Algiers 3 | chahrazad.abbane@gmail.com |
-	| Mohammed Rezine | Member | Media and Communication Sciences | University of Sidi Bel Abbes | rezine.mohammed@yahoo.com |
-	| Lobna Souigat | Member | Media and Communication Sciences | University of Ouargla | l.souigat@gmail.com |
-	| Djamal Eddine Medfouni | Member | Media and Communication Sciences | University of Oum El Bouaghi | djimyhome@hotmail.com |
-	| Oussama Demouche | Member | Library Science | University of Sidi Bel Abbes | demouche31@hotmail.fr |
-	| Nourine Achache | Member | Sociology | University of Sidi Bel Abbes | nourine.achache@gmail.com |
-	| Samia Bouguera | Member | Media and Communication Sciences | University of Annaba | samyoub@gmail.com |
-	| El Djellal Meghat | Member | Sociology | University of Sidi Bel Abbes | essalam-1@hotmail.fr |
-	| Amina Bessafa | Member | Media and Communication Sciences | University of Algiers 3 | bessafa.amina@gmail.com |
-	| Karim Chaadou | Member | Sociology | University of Sidi Bel Abbes | chadou.karim@gmail.com |
-	| Mohammed Sahali | Member | Sociology | University of Sidi Bel Abbes | sahali22mohammed@gmail.com |
-	| Salih Chelouach | Member | Media and Communication Sciences | University of Skikda | chelouachesaly2011@gmail.com |
+	| Souhila Bediaf | Member | Media and Communication Sciences | University of Skikda | 
+	| Noor El Hoda Obada | Member | Media and Communication Sciences | University of Algiers 3 | 
+	| Souad Lilia Ainsouya | Member | Media and Communication Sciences | University of Souk Ahras | 
+	| Yassine Hebal | Member | Psychology | University of Sidi Bel Abbes | 
+	| Imen Harfouch | Member | Media and Communication Sciences | University of Tlemcen | 
+	| Amina Ait El Hadj | Member | Media and Communication Sciences | University of El Oued | 
+	| Chahrazad Abbane | Member | Macroeconomics | University of Algiers 3 | 
+	| Mohammed Rezine | Member | Media and Communication Sciences | University of Sidi Bel Abbes | 
+	| Lobna Souigat | Member | Media and Communication Sciences | University of Ouargla | 
+	| Djamal Eddine Medfouni | Member | Media and Communication Sciences | University of Oum El Bouaghi | 
+	| Oussama Demouche | Member | Library Science | University of Sidi Bel Abbes | 
+	| Nourine Achache | Member | Sociology | University of Sidi Bel Abbes | 
+	| Samia Bouguera | Member | Media and Communication Sciences | University of Annaba | 
+	| El Djellal Meghat | Member | Sociology | University of Sidi Bel Abbes | 
+	| Amina Bessafa | Member | Media and Communication Sciences | University of Algiers 3 | 
+	| Karim Chaadou | Member | Sociology | University of Sidi Bel Abbes | 
+	| Mohammed Sahali | Member | Sociology | University of Sidi Bel Abbes | 
+	| Salih Chelouach | Member | Media and Communication Sciences | University of Skikda | 
 
 	## Members of the Scientific Committee from Abroad
 
 	| Name and Surname | Role | Specialty | Institution | Email |
 	|------------------|------|-----------|-------------|-------|
-	| Prof. Nour El Din Hamed | Member | | Al-Jouf University, Saudi Arabia | nhamed@ju.edu.sa |
-	| Prof. Mehmet Zeki Aydin | Member | Education Sciences | Selcuk University, Turkey | mehmetezeki.aydin@selcuk.edu.tr |
-	| Prof. Rasha Abdel Fattah El-Didi | Member | Psychology | Ain Shams University, Egypt | rrashaeldidy@gmail.com |
-	| Dr. Rahima Aissani | Member | Media and Communication Sciences | Al Ain University, UAE | rahima.aissani@aau.ac.ae |
-	| Dr. Sami Abdel Karim Al-Azraq | Member | Sociology | Ajdabiya University, Libya | sk_top_new@yahoo.com |
-	| Dr. Khaled Harzib | Member | Mathematics | Paderborn University, Germany | khaled.harzib@gmail.com |
-	| Dr. Reda Abdel Wahid El-Amin | Member | Media and Communication Sciences | Al-Azhar University, Egypt | redaabdelwage.amine@gmail.com |
-	| Dr. Amal Saad El-Motwali Osman | Member | Media and Communication Sciences | Mansoura University, Egypt | amalsaadmetwaly@gmail.com |
+	| Prof. Nour El Din Hamed | Member | | Al-Jouf University, Saudi Arabia |
+	| Prof. Mehmet Zeki Aydin | Member | Education Sciences | Selcuk University, Turkey | 
+	| Prof. Rasha Abdel Fattah El-Didi | Member | Psychology | Ain Shams University, Egypt | 
+	| Dr. Rahima Aissani | Member | Media and Communication Sciences | Al Ain University, UAE | 
+	| Dr. Sami Abdel Karim Al-Azraq | Member | Sociology | Ajdabiya University, Libya | 
+	| Dr. Khaled Harzib | Member | Mathematics | Paderborn University, Germany | 
+	| Dr. Reda Abdel Wahid El-Amin | Member | Media and Communication Sciences | Al-Azhar University, Egypt | 
+	| Dr. Amal Saad El-Motwali Osman | Member | Media and Communication Sciences | Mansoura University, Egypt |
 	| Dr. Abdel Latif Bel-Tayeb | Member | Mathematics | Saudi Arabia | abdellatif.bettayab@gmail.com |
 	""")
 
@@ -362,9 +331,7 @@ elif st.session_state.language == "fr":
     5. Sensibiliser aux technologies émergentes.
 
     ### Dates Importantes :
-    - Date limite de soumission des résumés : 1er janvier 2025
-    - Notification des résumés acceptés : 10 janvier 2025
-    - Date limite de soumission des articles complets : 30 janvier 2025
+    - Date limite de soumission des articles complets : 15 janvier 2025
     - Annonce du programme final : 10 février 2025
 
     ### Directives de Participation :
@@ -379,88 +346,61 @@ elif st.session_state.language == "fr":
     - Email : hssaiudl@gmail.com
     """)
 	st.markdown("""
-	## Informations Personnelles
+	
 
-	| |  |
-	|-------------|--------|
-	| Nom et Prénom | Metales Aicha |
-	| Rang | Assistant Professeur |
-	| Fonction | Professeur |
-	| Email | metales.sic@gmail.com |
-	| Téléphone | 541531962 |
+	## Comité Scientifique
 
-	## Partie 3: Comité d'Organisation
-
-	| Nom et Prénom | Rôle | Institution | Email | Téléphone |
-	|---------------|------|-------------|-------|-----------|
-	| Dr. Omar Oussama | Président | Université de Sidi Bel Abbès | oussama_sic@yahoo.fr | 676494906 |
-	| Metales Aicha | Membre | Université de Sidi Bel Abbès | metalesch12@gmail.com | 541531962 |
-	| Djelti Mostafa | Membre | Université de Sidi Bel Abbès | djelti.mostafa@yahoo.com | 675332071 |
-	| Merah Saïd | Membre | Université de Sidi Bel Abbès | said_telm13@gmail.fr | 668113131 |
-	| Lahaj Ahmed Karima | Membre | Université de Sidi Bel Abbès | hadjahmedkarima@yahoo.fr | 659535111 |
-
-	### Doctorants
-
-	| Nom et Prénom | Université | Email | Téléphone |
-	|---------------|------------|-------|-----------|
-	| Ben Aïcha Ahmed | Université de Sidi Bel Abbès | benadoudie@gmail.com | 793178258 |
-	| Benafla Fatiha | Université de Sidi Bel Abbès | benaflawafaa@gmail.com | 697857039 |
-	| Boucheta Rahima | Université de Sidi Bel Abbès | bouchetarahma@gmail.com | 555943688 |
-	| Si Mohammed Amal | Université de Sidi Bel Abbès | simohammed0690@gmail.com | 540172749 |
-
-	## Partie 4: Comité Scientifique
-
-	| Nom et Prénom | Rôle | Spécialité | Institution | Email |
-	|---------------|------|-----------|-------------|-------|
-	| Lahaj Ahmed Karima | Président | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | hadjahmedkarima@yahoo.fr |
-	| Makhlouf Sid Ahmed | Membre | Philosophie | Université de Sidi Bel Abbès | makphilos@yahoo.fr |
-	| Maghreb Zine El Abidine | Membre | Philosophie | Université de Sidi Bel Abbès | logiquezino@yahoo.fr |
-	| Nasreddine Bouziane | Membre | Sciences de l'information et de la communication | Université Constantine 3 | nasreddine.bouziane@univ-constantine3.dz |
-	| Djemal Ben Zarouq | Membre | Sciences de l'information et de la communication | Université de Skikda | benzeroukd@yahoo.fr |
-	| Merah Saïd | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | said_telm13@hotmail.fr |
+	| Nom et Prénom | Rôle | Spécialité | Institution | 
+	|---------------|------|-----------|-------------|
+	| Lahaj Ahmed Karima | Président | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
+	| Makhlouf Sid Ahmed | Membre | Philosophie | Université de Sidi Bel Abbès | 
+	| Maghreb Zine El Abidine | Membre | Philosophie | Université de Sidi Bel Abbès | 
+	| Nasreddine Bouziane | Membre | Sciences de l'information et de la communication | Université Constantine 3 | 
+	| Djemal Ben Zarouq | Membre | Sciences de l'information et de la communication | Université de Skikda | 
+	| Merah Saïd | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
 	| Wassila Benamer | Membre | Psychologie | Université de Biskra | wassila.benameur@univ-biskra.dz |
 	| Sadiki Abdelnour | Membre | Sociologie | Université de Sidi Bel Abbès | seddikinour@yahoo.fr |
-	| Metales Aicha | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | metalesch12@gmail.com |
-	| Khalf Amal | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | bdfamal1519@gmail.com |
-	| Djelti Mostafa | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | djelti.mostafa@yahoo.com |
-	| Berrahil Soumia | Membre | Sciences de l'information et de la communication | Université d'Oran 2 | soumia.berrahil@yahoo.fr |
-	| Aghoulais Mohamed | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | aghoulaiche.transfer@gmail.com |
-	| Belhamiti Mohamed | Membre | Sociologie | Université de Sidi Bel Abbès | belhamiti@live.com |
-	| Chaïb Hadj | Membre | Sciences des bibliothèques | Université de Saïda | biblio.doc2001@gmail.com |
-	| Djeloul Mokhtar | Membre | Sciences de l'information et de la communication | Université de Tiaret | mokhtardjl20@gmail.com |
-	| Omar Oussama | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | oussama_sic@yahoo.fr |
-	| Rigui Asmaa | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | assoum_doctorat@hotmail.fr |
-	| Djamil Nassima | Membre | Sciences de l'information et de la communication | Université d'Oran 2 | djemilnassima@hotmail.com |
-	| Ould Demerji Wassila | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | odw1987@gmail.com |
-	| Reghigue Abdelkrim | Membre | Arts | Université de Sidi Bel Abbès | siquou@yahoo.fr |
-	| Houra Nabil | Membre | Sciences de l'information et de la communication | Université de Skikda | soheilhoura89@gmail.com |
-	| Bediaf Souhila | Membre | Sciences de l'information et de la communication | Université de Skikda | bediafsouhila@gmail.com |
-	| Abada Nour El Hoda | Membre | Sciences de l'information et de la communication | Université d'Alger 3 | n.nour74@yahoo.fr |
-	| Lilia Aïn Souya | Membre | Sciences de l'information et de la communication | Université de Souk Ahras | lilia.ainsouya@yahoo.fr |
-	| Hebbal Yacine | Membre | Psychologie | Université de Sidi Bel Abbès | yacine_22000@hotmail.com |
-	| Harfouche Imene | Membre | Sciences de l'information et de la communication | Université de Tlemcen | dr.imene.harfouche@gmail.com |
-	| Amina Ait El Hadj | Membre | Sciences de l'information et de la communication | Université d'El Oued | Aminaaitelhadj2020@gmail.com |
+	| Metales Aicha | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
+	| Khalf Amal | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
+	| Djelti Mostafa | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
+	| Berrahil Soumia | Membre | Sciences de l'information et de la communication | Université d'Oran 2 | 
+	| Aghoulais Mohamed | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès |
+	| Belhamiti Mohamed | Membre | Sociologie | Université de Sidi Bel Abbès | 
+	| Chaïb Hadj | Membre | Sciences des bibliothèques | Université de Saïda | 
+	| Djeloul Mokhtar | Membre | Sciences de l'information et de la communication | Université de Tiaret | 
+	| Omar Oussama | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
+	| Rigui Asmaa | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès |
+	| Djamil Nassima | Membre | Sciences de l'information et de la communication | Université d'Oran 2 | 
+	| Ould Demerji Wassila | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
+	| Reghigue Abdelkrim | Membre | Arts | Université de Sidi Bel Abbès | 
+	| Houra Nabil | Membre | Sciences de l'information et de la communication | Université de Skikda | 
+	| Bediaf Souhila | Membre | Sciences de l'information et de la communication | Université de Skikda | 
+	| Abada Nour El Hoda | Membre | Sciences de l'information et de la communication | Université d'Alger 3 | 
+	| Lilia Aïn Souya | Membre | Sciences de l'information et de la communication | Université de Souk Ahras | 
+	| Hebbal Yacine | Membre | Psychologie | Université de Sidi Bel Abbès | 
+	| Harfouche Imene | Membre | Sciences de l'information et de la communication | Université de Tlemcen | 
+	| Amina Ait El Hadj | Membre | Sciences de l'information et de la communication | Université d'El Oued | 
 	| Abane Chahrazad | Membre | Économie | Université d'Alger 3 | chahrazad.abbane@gmail.com |
-	| Rezine Mohamed | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | rezine.mohammed@yahoo.com |
-	| Souigat Lobna | Membre | Sciences de l'information et de la communication | Université d'Ouargla | l.souigat@gmail.com |
-	| Madfouni Djamal Eddine | Membre | Sciences de l'information et de la communication | Université d'Oum El Bouaghi | djimyhome@hotmail.com |
-	| Demouche Oussama | Membre | Sciences des bibliothèques | Université de Sidi Bel Abbès | demouche31@hotmail.fr |
-	| Achache Nourine | Membre | Sociologie | Université de Sidi Bel Abbès | nourine.achache@gmail.com |
-	| Bouguera Samia | Membre | Sciences de l'information et de la communication | Université d'Annaba | samyoub@gmail.com |
-	| Maghtat El Ajjal | Membre | Sociologie | Université de Sidi Bel Abbès | essalam-1@hotmail.fr |
-	| Bessafa Amina | Membre | Sciences de l'information et de la communication | Université d'Alger 3 | bessafa.amina@gmail.com |
-	| Chadou Karim | Membre | Sociologie | Université de Sidi Bel Abbès | chadou.karim@gmail.com |
-	| Sahali Mohamed | Membre | Sociologie | Université de Sidi Bel Abbès | sahali22mohammed@gmail.com |
-	| Chelouache Saliha | Membre | Sciences de l'information et de la communication | Université de Skikda | chelouachesaly2011@gmail.com |
+	| Rezine Mohamed | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès |
+	| Souigat Lobna | Membre | Sciences de l'information et de la communication | Université d'Ouargla | 
+	| Madfouni Djamal Eddine | Membre | Sciences de l'information et de la communication | Université d'Oum El Bouaghi |
+	| Demouche Oussama | Membre | Sciences des bibliothèques | Université de Sidi Bel Abbès |
+	| Achache Nourine | Membre | Sociologie | Université de Sidi Bel Abbès | 
+	| Bouguera Samia | Membre | Sciences de l'information et de la communication | Université d'Annaba | 
+	| Maghtat El Ajjal | Membre | Sociologie | Université de Sidi Bel Abbès |
+	| Bessafa Amina | Membre | Sciences de l'information et de la communication | Université d'Alger 3 |
+	| Chadou Karim | Membre | Sociologie | Université de Sidi Bel Abbès |
+	| Sahali Mohamed | Membre | Sociologie | Université de Sidi Bel Abbès | 
+	| Chelouache Saliha | Membre | Sciences de l'information et de la communication | Université de Skikda | 
 
 	## Membres du Comité Scientifique Hors National
 
-	| Nom et Prénom | Rôle | Université | Institution | Email |
-	|---------------|------|-----------|-------------|-------|
-	| Prof. Nour El Dine Hamed | Membre | | Université Al Jouf, Arabie Saoudite | nhamed@ju.edu.sa |
-	| Prof. Mehmet Zeki Aydin | Membre | Sciences de l'éducation | Université Selçuk, Turquie | mehmetezeki.aydin@selcuk.edu.tr |
-	| Prof. Rasha Abdel Fattah El-Didy | Membre | Psychologie | Université Ain Shams, Égypte | rrashaeldidy@gmail.com |
-	| Dr. Rahima Aissani | Membre | Sciences de l'information et de la communication | Université Al Ain, Émirats Arabes Unis | rahima.aissani@ua.ac.ae |
+	| Nom et Prénom | Rôle | Université | Institution | 
+	|---------------|------|-----------|-------------|
+	| Prof. Nour El Dine Hamed | Membre | | Université Al Jouf, Arabie Saoudite | 
+	| Prof. Mehmet Zeki Aydin | Membre | Sciences de l'éducation | Université Selçuk, Turquie | 
+	| Prof. Rasha Abdel Fattah El-Didy | Membre | Psychologie | Université Ain Shams, Égypte | 
+	| Dr. Rahima Aissani | Membre | Sciences de l'information et de la communication | Université Al Ain, Émirats Arabes Unis | 
 	""")
 
 
@@ -496,9 +436,7 @@ else:
 
 	## مواعيد هامة:
 
-	- آخر أجل لإرسال الملخصات: 1/01/2025
-	- الرد على الملخصات المقبولة: 10/ 01/ 2025
-	- آخر أجل لإرسال المداخلات كاملة: 30/01/2025   
+	- آخر أجل لإرسال المداخلات كاملة: 15/01/2025   
 	- الإعلان عن البرنامج النهائي للملتقى: 10/02/2025
 
 	## شروط المشاركة:
@@ -517,93 +455,65 @@ else:
 	نتطلع لاستقبال أبحاث مميزة تساهم في دعم أهداف الملتقى ودفع عجلة البحث العلمي في مجالات الذكاء الاصطناعي والمسؤولية الاجتماعية.
 		""")
 	st.markdown("""
-	## معلومات شخصية
+	
+	##  اللجنة العلمية
 
-	|  |  |
-	|-------|-------|
-	| الاسم واللقب | مطالس عائشة |
-	| الرتبة | أستاذ مساعد |
-	| الوظيفة | أستاذ |
-	| البريد الالكتروني | metales.sic@gmail.com |
-	| الهاتف | 541531962 |
-
-	## الجزء 3: اللجنة التنظيمية
-
-	| الاسم واللقب | الصفة | المؤسسة | البريد الالكتروني | الهاتف |
-	|-------------|------|---------|-------------------|--------|
-	| د.عمر أوسامة | رئيس | جامعة سيدي بلعباس | oussama_sic@yahoo.fr | 676494906 |
-	| مطالس عائشة | عضو | جامعة سيدي بلعباس | metalesch12@gmail.com | 541531962 |
-	| جلطي مصطفى | عضو | جامعة سيدي بلعباس | djelti.mostafa@yahoo.com | 675332071 |
-	| مراح سعيد | عضو | جامعة سيدي بلعباس | said_telm13@gmail.fr | 668113131 |
-	| لحاج أحمد كريمة | عضو | جامعة سيدي بلعباس | hadjahmedkarima@yahoo.fr | 659535111 |
-
-	### طلبة الدكتوراه
-
-	| الاسم واللقب | الجامعة | البريد الالكتروني | الهاتف |
-	|-------------|--------|-------------------|--------|
-	| بن عائشة أحمد | جامعة سيدي بلعباس | benadoudie@gmail.com | 793178258 |
-	| بنافلة فتيحة | جامعة سيدي بلعباس | benaflawafaa@gmail.com | 697857039 |
-	| بوشتة رحيمة | جامعة سيدي بلعباس | bouchetarahma@gmail.com | 555943688 |
-	| سي محمد أمال | جامعة سيدي بلعباس | simohammed0690@gmail.com | 540172749 |
-
-	## الجزء 4: اللجنة العلمية
-
-	| الاسم واللقب | الصفة | التخصص | المؤسسة | البريد الالكتروني |
-	|-------------|------|---------|---------|-------------------|
-	| لحاج أحمد كريمة | رئيس | علوم الاعلام والاتصال | جامعة سيدي بلعباس | hadjahmedkarima@yahoo.fr |
-	| مخلوف سيد أحمد | عضو | فلسفة | جامعة سيدي بلعباس | makphilos@yahoo.fr |
-	| مغربي زين العابدين | عضو | فلسفة | جامعة سيدي بلعباس | logiquezino@yahoo.fr |
-	| نصر الدين بوزيان | عضو | علوم الاعلام والاتصال | جامعة قسنطينة 3 | nasreddine.bouziane@univ-constantine3.dz |
-	| جمال بن زروق | عضو | علوم الاعلام والاتصال | جامعة سكيكدة | benzeroukd@yahoo.fr |
-	| مراح سعيد | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | said_telm13@hotmail.fr |
-	| وسيلة بن عامر | عضو | علم النفس | جامعة بسكرة | wassila.benameur@univ-bisakra.dz |
-	| صديقي عبدالنور | عضو | علم الاجتماع | جامعة سيدي بلعباس | seddikinour@yahoo.fr |
-	| مطالس عائشة | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | metalesch12@gmail.com |
-	| خالف أمال | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | bdfamal1519@gmail.com |
-	| جلطي مصطفى | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | djelti.mostafa@yahoo.com |
-	| برحيل سمية | عضو | علوم الاعلام والاتصال | جامعة وهران 2 | soumia.berrahil@yahoo.fr |
-	| أغولايش محمد | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | aghoulaiche.transfer@gmail.com |
-	| يلحميتي محمد | عضو | علم الاحتماع | جامعة سيدي بلعباس | belhamiti@live.com |
-	| شعيب حاج | عضو | علم المكتبات | جامعة سعيدة | biblio.doc2001@gmail.com |
-	| جلولي مختار | عضو | علوم الاعلام والاتصال | جامعة تيارت | mokhtardjl20@gmail.com |
-	| عمر أوسامة | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | oussama_sic@yahoo.fr |
-	| ريغي أسماء | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | assoum_doctorat@hotmail.fr |
-	| جميل نسيمة | عضو | علوم الاعلام والاتصال | جامعة وهران 2 | djemilnassima@hotmail.com |
-	| وجدي دمرجي وسيلة | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | odw1987@gmail.com |
-	| رقيق عبد الكريم | عضو | فنون | جامعة سيدي بلعباس | siquou@yahoo.fr |
-	| حورة نبيل | عضو | علوم الاعلام والاتصال | جامعة سكيكدة | soheilhoura89@gmail.com |
-	| بضياف سوهيلة | عضو | علوم الاعلام والاتصال | جامعة سكيكدة | bediafsouhila@gmail.com |
-	| عبادة نور الهدى | عضو | علوم الاعلام والاتصال | جامعة الجزائر 3 | n.nour74@yahoo.fr |
-	| ليليا عين سوية | عضو | علوم الاعلام والاتصال | جامعة سوق أهراس | lilia.ainsouya@yahoo.fr |
-	| حبال ياسين | عضو | علم النفس | جامعة سيدي بلعباس | yacine_22000@hotmail.com |
-	| حرفوش إيمان | عضو | علوم الاعلام والاتصال | جامعة تلمسان | dr.imene.harfouche@gmail.com |
-	| أمينة آيت الحاج | عضو | علوم الاعلام والاتصال | جامعة الوادي | Aminaaitelhadj2020@gmail.com |
-	| عبان شهرزاد | عضو | اقتصاد كلي | جامعة الجزائر 3 | chahrazad.abbane@gmail.com |
-	| رزين محمد | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | rezine.mohammed@yahoo.com |
-	| سويقات لبنى | عضو | علوم الاعلام والاتصال | جامعة ورقلة | l.souigat@gmail.com |
-	| مدفوني جمال الدين | عضو | علوم الاعلام والاتصال | جامعة أم البواقي | djimyhome@hotmail.com |
-	| دموش أسامة | عضو | علم المكتبات | جامعة سيدي بلعباس | demouche31@hotmail.fr |
-	| عشاش نورين | | علم الاجتماع | جامعة سيدي بلعباس | nourine.achache@gmail.com |
-	| بوقرة سامية | عضو | علوم الاعلام والاتصال | جامعة عنابة | samyoub@gmail.com |
-	| مغتات العجال | عضو | علم الاجتماع | جامعة سيدي بلعباس | essalam-1@hotmail.fr |
-	| بصافة أمينة | عضو | علوم الاعلام والاتصال | جامعة الجزائر 3 | bessafa.amina@gmail.com |
-	| شعدو كريم | عضو | علم الاجتماع | جامعة سيدي بلعباس | chadou.karim@gmail.com |
-	| سهالي محمد | عضو | علم الاجتماع | جامعة سيدي بلعباس | sahali22mohammed@gmail.com |
-	| شلواش صليحة | عضو | علوم الاعلام والاتصال | جامعة سكيدة | chelouachesaly2011@gmail.com |
+	| الاسم واللقب | الصفة | التخصص | المؤسسة |
+	|-------------|------|---------|---------|
+	| لحاج أحمد كريمة | رئيس | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| مخلوف سيد أحمد | عضو | فلسفة | جامعة سيدي بلعباس | 
+	| مغربي زين العابدين | عضو | فلسفة | جامعة سيدي بلعباس | 
+	| نصر الدين بوزيان | عضو | علوم الاعلام والاتصال | جامعة قسنطينة 3 | 
+	| جمال بن زروق | عضو | علوم الاعلام والاتصال | جامعة سكيكدة | 
+	| مراح سعيد | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| وسيلة بن عامر | عضو | علم النفس | جامعة بسكرة | 
+	| صديقي عبدالنور | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
+	| مطالس عائشة | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| خالف أمال | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| جلطي مصطفى | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| برحيل سمية | عضو | علوم الاعلام والاتصال | جامعة وهران 2 | 
+	| أغولايش محمد | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| يلحميتي محمد | عضو | علم الاحتماع | جامعة سيدي بلعباس | 
+	| شعيب حاج | عضو | علم المكتبات | جامعة سعيدة | 
+	| جلولي مختار | عضو | علوم الاعلام والاتصال | جامعة تيارت | 
+	| عمر أوسامة | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| ريغي أسماء | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| جميل نسيمة | عضو | علوم الاعلام والاتصال | جامعة وهران 2 | 
+	| وجدي دمرجي وسيلة | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| رقيق عبد الكريم | عضو | فنون | جامعة سيدي بلعباس | 
+	| حورة نبيل | عضو | علوم الاعلام والاتصال | جامعة سكيكدة | 
+	| بضياف سوهيلة | عضو | علوم الاعلام والاتصال | جامعة سكيكدة | 
+	| عبادة نور الهدى | عضو | علوم الاعلام والاتصال | جامعة الجزائر 3 | 
+	| ليليا عين سوية | عضو | علوم الاعلام والاتصال | جامعة سوق أهراس | 
+	| حبال ياسين | عضو | علم النفس | جامعة سيدي بلعباس | 
+	| حرفوش إيمان | عضو | علوم الاعلام والاتصال | جامعة تلمسان | 
+	| أمينة آيت الحاج | عضو | علوم الاعلام والاتصال | جامعة الوادي | 
+	| عبان شهرزاد | عضو | اقتصاد كلي | جامعة الجزائر 3 | 
+	| رزين محمد | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+	| سويقات لبنى | عضو | علوم الاعلام والاتصال | جامعة ورقلة | 
+	| مدفوني جمال الدين | عضو | علوم الاعلام والاتصال | جامعة أم البواقي | 
+	| دموش أسامة | عضو | علم المكتبات | جامعة سيدي بلعباس | 
+	| عشاش نورين | | علم الاجتماع | جامعة سيدي بلعباس | 
+	| بوقرة سامية | عضو | علوم الاعلام والاتصال | جامعة عنابة | 
+	| مغتات العجال | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
+	| بصافة أمينة | عضو | علوم الاعلام والاتصال | جامعة الجزائر 3 | 
+	| شعدو كريم | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
+	| سهالي محمد | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
+	| شلواش صليحة | عضو | علوم الاعلام والاتصال | جامعة سكيدة | 
 
 	## أعضاء اللجنة العلمية من خارج الوطن
 
 	| الاسم واللقب | الصفة | الجامعة | المؤسسة | البريد الالكتروني |
 	|-------------|------|---------|---------|-------------------|
-	| أ.د/ نورالدين حامد | عضو | | جامعة الجوف المملكة العربية السعودية | nhamed@ju.edu.sa |
-	| أ.د/ محمت زكي ايدن | عضو | علوم التربية | جامعة سلجوق تركيا | mehmetezeki.aydin@selcuk.edu.tr |
-	| أ.د / رشا عبد الفتاح الديدي | عضو | علم النفس | جامعة عين شمس - مصر | rrashaeldidy@gmail.com |
-	| د/ رحيمة عيساني | عضو | علوم الاعلام والاتصال | جامعة العين الامارات العربية المتحدة | rahima.aissani@aau.ac.ae |
-	| د/ سامي عبد الكريم الأزرق | عضو | علم الاجتماع | جامعة أجدابيا- ليبيا | sk_top_new@yahoo.com |
-	| د/ خالد حريز | عضو | الرياضيات | جامعة Pederbon ألمانيا | khaled.harzib@gmail.com |
-	| د/ رضا عبد الواجد الأمين | عضو | علوم الاعلام والاتصال | جامعة الأزهر - مصر | redaabdelwage.amine@gmail.com |
-	| د/ أمال سعد المتولي عثمان | عضو | علوم الاعلام والاتصال | جامعة المنصورة - مصر | amalsaadmetwaly@gmail.com |
-	| د/ عبد اللطيف بالطيب | عضو | الرياضيات | المملكة العربية السعودية | abdellatif.bettayab@gmail.com |
+	| أ.د/ نورالدين حامد | عضو | | جامعة الجوف المملكة العربية السعودية | 
+	| أ.د/ محمت زكي ايدن | عضو | علوم التربية | جامعة سلجوق تركيا | 
+	| أ.د / رشا عبد الفتاح الديدي | عضو | علم النفس | جامعة عين شمس - مصر | 
+	| د/ رحيمة عيساني | عضو | علوم الاعلام والاتصال | جامعة العين الامارات العربية المتحدة | 
+	| د/ سامي عبد الكريم الأزرق | عضو | علم الاجتماع | جامعة أجدابيا- ليبيا | 
+	| د/ خالد حريز | عضو | الرياضيات | جامعة Pederbon ألمانيا | 
+	| د/ رضا عبد الواجد الأمين | عضو | علوم الاعلام والاتصال | جامعة الأزهر - مصر | 
+	| د/ أمال سعد المتولي عثمان | عضو | علوم الاعلام والاتصال | جامعة المنصورة - مصر | 
+	| د/ عبد اللطيف بالطيب | عضو | الرياضيات | المملكة العربية السعودية | 
 	""")
 
 
