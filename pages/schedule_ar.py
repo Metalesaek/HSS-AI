@@ -297,6 +297,26 @@ st.markdown(df.to_html(index=False, classes='schedule-table'), unsafe_allow_html
 
 
 # Footer section
+# st.markdown(
+#     """
+#     <style>
+#         .footer {
+#             position: fixed;
+#             left: 0;
+#             bottom: 0;
+#             width: 100%;
+#             background-color: #f1f1f1;
+#             text-align: center;
+#             padding: 10px;
+#         }
+#     </style>
+#     <div class="footer">
+#         <p>Contact us at: <a href="mailto:hssaiudl@gmail.com">hssaiudl@gmail.com</a> | Phone: +213 668 11 31 31</p>
+#     </div>
+#     """,
+#     unsafe_allow_html=True
+# )
+
 st.markdown(
     """
     <style>
@@ -305,9 +325,18 @@ st.markdown(
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: #f1f1f1;
+            background-color: #2e2e2e; /* Neutral background for both modes */
+            color: #ffffff; /* Text color for readability */
             text-align: center;
             padding: 10px;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #ffcc00; /* Accent color for links */
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
     <div class="footer">

@@ -263,7 +263,7 @@ window.history.replaceState(null, '', url.toString());
 query_params = st.query_params
 color_scheme = query_params.get('color_scheme', ['light'])[0]
 
-st.write(f"Current color scheme: {color_scheme}")
+
 
 def cycle_language():
 	current_lang = st.session_state.language
@@ -697,9 +697,18 @@ st.markdown(
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: #f1f1f1;
+            background-color: #2e2e2e; /* Neutral background for both modes */
+            color: #ffffff; /* Text color for readability */
             text-align: center;
             padding: 10px;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #ffcc00; /* Accent color for links */
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
     <div class="footer">
