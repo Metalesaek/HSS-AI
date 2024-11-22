@@ -3,6 +3,7 @@ from streamlit_navigation_bar import st_navbar
 import os
 import base64
 
+
 st.set_page_config(initial_sidebar_state="collapsed")
 
 
@@ -106,6 +107,80 @@ translations = {
     }
 }
 
+
+
+# st.markdown(f"""
+# <style>
+#     body {{
+#         font-family: 'Arial', sans-serif;
+#         color: #333;
+#         line-height: 1.6;
+#         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
+#     }}
+#     .main {{
+#         max-width: 800px;
+#         margin: 0 auto;
+#         padding: 20px;
+#         background-color: #fff;
+#         box-shadow: 0 0 10px rgba(0,0,0,0.1);
+#         border-radius: 8px;
+#     }}
+#     .title {{
+#         color: #e28743;
+#         font-size: 28px;
+#         text-align: center;
+#         margin-bottom: 10px;
+#         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
+#     }}
+#     .subtitle {{
+#         color: #4a4a4a;
+#         font-size: 22px;
+#         text-align: center;
+#         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
+#     }}
+#     h3 {{
+#         color: #e28743;
+#         border-bottom: 2px solid #e28743;
+#         padding-bottom: 10px;
+#         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
+#     }}
+#     .important-dates {{
+#         background-color: #f9f9f9;
+#         padding: 15px;
+#         border-radius: 5px;
+#         margin-top: 20px;
+#     }}
+#     .contact-info {{
+#         background-color: #e28743;
+#         color: white;
+#         padding: 15px;
+#         border-radius: 5px;
+#         margin-top: 20px;
+#     }}
+#     table {{
+#         width: 100%;
+#         border-collapse: collapse;
+#         margin-top: 20px;
+#     }}
+#     th, td {{
+#         border: 1px solid #ddd;
+#         padding: 8px;
+#         text-align: {'right' if st.session_state.language == 'ar' else 'left'};
+#         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
+#     }}
+#     th {{
+#         background-color: #e28743;
+#         color: white;
+#         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
+#     }}
+#     tr:nth-child(even) {{
+#         background-color: #f2f2f2;
+#         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
+#     }}
+# </style>
+# """, unsafe_allow_html=True)
+# # Main content
+
 st.markdown(f"""
 <style>
     body {{
@@ -114,14 +189,7 @@ st.markdown(f"""
         line-height: 1.6;
         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
     }}
-    .main {{
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        border-radius: 8px;
-    }}
+    
     .title {{
         color: #e28743;
         font-size: 28px;
@@ -169,18 +237,33 @@ st.markdown(f"""
         background-color: #e28743;
         color: white;
         direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
-    tr:nth-child(even) {{
-        background-color: #f2f2f2;
-        direction: {'rtl' if st.session_state.language == 'ar' else 'ltr'};
-    }}
+    
 </style>
 """, unsafe_allow_html=True)
 # Main content
 
 
+st.markdown("""
+<script>
+function getColorScheme() {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        return 'dark';
+    } else {
+        return 'light';
+    }
+}
+const scheme = getColorScheme();
+const url = new URL(window.location);
+url.searchParams.set('color_scheme', scheme);
+window.history.replaceState(null, '', url.toString());
+</script>
+""", unsafe_allow_html=True)
 
+# Get the color scheme from URL parameters
+query_params = st.query_params
+color_scheme = query_params.get('color_scheme', ['light'])[0]
 
+st.write(f"Current color scheme: {color_scheme}")
 
 def cycle_language():
 	current_lang = st.session_state.language
@@ -261,8 +344,6 @@ elif page == translate("register"):
 # 	navigate_to("logout")
 
 #st.image("logo_aicha.jpeg", width=300)
-
-
 
 
 

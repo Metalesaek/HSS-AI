@@ -225,9 +225,7 @@ st.markdown("""
         background-color: #e28743;
         color: white;
     }
-    .schedule-table tr:nth-child(even) {
-        background-color: #f2f2f2;
-    }
+    
     .navigation-buttons {
         display: flex;
         justify-content: center;
