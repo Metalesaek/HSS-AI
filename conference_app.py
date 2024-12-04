@@ -439,7 +439,11 @@ if st.session_state.language == "en":
 	| Amina Bessafa | Member | Media and Communication Sciences | University of Algiers 3 | 
 	| Karim Chaadou | Member | Sociology | University of Sidi Bel Abbes | 
 	| Mohammed Sahali | Member | Sociology | University of Sidi Bel Abbes | 
-	| Salih Chelouach | Member | Media and Communication Sciences | University of Skikda | 
+	| Salih Chelouach | Member | Media and Communication Sciences | University of Skikda |
+	| Mourad Ahaddad | Member | Media and Communication Sciences | University of Algiers 2 |
+	| Bouamama Al-Arabi | Member | Media and Communication Sciences | University of Mostaganem |
+	| Yasref Haj | Member | Media and Communication Sciences | University of Sidi Bel Abbès |
+	| Ibrahim Qasemi | Member | Media and Communication Sciences | University of Sidi Bel Abbès |
 
 	## Members of the Scientific Committee from Abroad
 
@@ -551,7 +555,11 @@ elif st.session_state.language == "fr":
 	| Bessafa Amina | Membre | Sciences de l'information et de la communication | Université d'Alger 3 |
 	| Chadou Karim | Membre | Sociologie | Université de Sidi Bel Abbès |
 	| Sahali Mohamed | Membre | Sociologie | Université de Sidi Bel Abbès | 
-	| Chelouache Saliha | Membre | Sciences de l'information et de la communication | Université de Skikda | 
+	| Chelouache Saliha | Membre | Sciences de l'information et de la communication | Université de Skikda |
+	| Mourad Ahaddad | Membre | Sciences de l'information et de la communication | Université d'Alger 2 |
+    | Bouamama Al-Arabi | Membre | Sciences de l'information et de la communication | Université de Mostaganem |
+	| Yasref Haj | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès |
+	| Ibrahim Qasemi | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
 
 	## Membres du Comité Scientifique Hors National
 
@@ -668,7 +676,12 @@ else:
 	| بصافة أمينة | عضو | علوم الاعلام والاتصال | جامعة الجزائر 3 | 
 	| شعدو كريم | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
 	| سهالي محمد | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
-	| شلواش صليحة | عضو | علوم الاعلام والاتصال | جامعة سكيدة | 
+	| شلواش صليحة | عضو | علوم الاعلام والاتصال | جامعة سكيدة |
+	| أحداد موراد | عضو | علوم الاعلام والاتصال | جامعة الجزائر 2 |
+	| العربي بوعمامة | عضو | علوم الاعلام والاتصال | جامعة مستغانم |
+	| حاج يصرف | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس |
+	| قاسمي ابراهيم | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
+
 
 	## أعضاء اللجنة العلمية من خارج الوطن
 
