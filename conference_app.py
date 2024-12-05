@@ -404,7 +404,11 @@ if st.session_state.language == "en":
 	| Karima Lahj Ahmed | President | Media and Communication Sciences | University of Sidi Bel Abbes | 
 	| Sid Ahmed Makhlouf | Member | Philosophy | University of Sidi Bel Abbes |
 	| Zein El Abidin Maghrebi | Member | Philosophy | University of Sidi Bel Abbes | 
-	| Nasreddine Bouziane | Member | Media and Communication Sciences | University of Constantine 3 | 
+	| Nasreddine Bouziane | Member | Media and Communication Sciences | University of Constantine 3 |
+	| Mourad Ahaddad | Member | Media and Communication Sciences | University of Algiers 2 |
+	| Bouamama Al-Arabi | Member | Media and Communication Sciences | University of Mostaganem |
+	| Yasref Haj | Member | Media and Communication Sciences | University of Sidi Bel Abbès |
+	| Ibrahim Qasemi | Member | Media and Communication Sciences | University of Sidi Bel Abbès |
 	| Jamal Ben Zerrouk | Member | Media and Communication Sciences | University of Skikda | 
 	| Said Marah | Member | Media and Communication Sciences | University of Sidi Bel Abbes | 
 	| Wassila Ben Amr | Member | Psychology | University of Biskra | 
@@ -440,10 +444,7 @@ if st.session_state.language == "en":
 	| Karim Chaadou | Member | Sociology | University of Sidi Bel Abbes | 
 	| Mohammed Sahali | Member | Sociology | University of Sidi Bel Abbes | 
 	| Salih Chelouach | Member | Media and Communication Sciences | University of Skikda |
-	| Mourad Ahaddad | Member | Media and Communication Sciences | University of Algiers 2 |
-	| Bouamama Al-Arabi | Member | Media and Communication Sciences | University of Mostaganem |
-	| Yasref Haj | Member | Media and Communication Sciences | University of Sidi Bel Abbès |
-	| Ibrahim Qasemi | Member | Media and Communication Sciences | University of Sidi Bel Abbès |
+	
 
 	## Members of the Scientific Committee from Abroad
 
@@ -520,6 +521,10 @@ elif st.session_state.language == "fr":
 	| Makhlouf Sid Ahmed | Membre | Philosophie | Université de Sidi Bel Abbès | 
 	| Maghreb Zine El Abidine | Membre | Philosophie | Université de Sidi Bel Abbès | 
 	| Nasreddine Bouziane | Membre | Sciences de l'information et de la communication | Université Constantine 3 | 
+	| Mourad Ahaddad | Membre | Sciences de l'information et de la communication | Université d'Alger 2 |
+    | Bouamama Al-Arabi | Membre | Sciences de l'information et de la communication | Université de Mostaganem |
+	| Yasref Haj | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès |
+	| Ibrahim Qasemi | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
 	| Djemal Ben Zarouq | Membre | Sciences de l'information et de la communication | Université de Skikda | 
 	| Merah Saïd | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
 	| Wassila Benamer | Membre | Psychologie | Université de Biskra | wassila.benameur@univ-biskra.dz |
@@ -556,11 +561,7 @@ elif st.session_state.language == "fr":
 	| Chadou Karim | Membre | Sociologie | Université de Sidi Bel Abbès |
 	| Sahali Mohamed | Membre | Sociologie | Université de Sidi Bel Abbès | 
 	| Chelouache Saliha | Membre | Sciences de l'information et de la communication | Université de Skikda |
-	| Mourad Ahaddad | Membre | Sciences de l'information et de la communication | Université d'Alger 2 |
-    | Bouamama Al-Arabi | Membre | Sciences de l'information et de la communication | Université de Mostaganem |
-	| Yasref Haj | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès |
-	| Ibrahim Qasemi | Membre | Sciences de l'information et de la communication | Université de Sidi Bel Abbès | 
-
+	
 	## Membres du Comité Scientifique Hors National
 
 	| Nom et Prénom | Rôle | Université | Institution | 
@@ -641,6 +642,10 @@ else:
 	| مخلوف سيد أحمد | عضو | فلسفة | جامعة سيدي بلعباس | 
 	| مغربي زين العابدين | عضو | فلسفة | جامعة سيدي بلعباس | 
 	| نصر الدين بوزيان | عضو | علوم الاعلام والاتصال | جامعة قسنطينة 3 | 
+	| أحداد موراد | عضو | علوم الاعلام والاتصال | جامعة الجزائر 2 |
+	| العربي بوعمامة | عضو | علوم الاعلام والاتصال | جامعة مستغانم |
+	| حاج يصرف | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس |
+	| قاسمي ابراهيم | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
 	| جمال بن زروق | عضو | علوم الاعلام والاتصال | جامعة سكيكدة | 
 	| مراح سعيد | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
 	| وسيلة بن عامر | عضو | علم النفس | جامعة بسكرة | 
@@ -677,11 +682,7 @@ else:
 	| شعدو كريم | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
 	| سهالي محمد | عضو | علم الاجتماع | جامعة سيدي بلعباس | 
 	| شلواش صليحة | عضو | علوم الاعلام والاتصال | جامعة سكيدة |
-	| أحداد موراد | عضو | علوم الاعلام والاتصال | جامعة الجزائر 2 |
-	| العربي بوعمامة | عضو | علوم الاعلام والاتصال | جامعة مستغانم |
-	| حاج يصرف | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس |
-	| قاسمي ابراهيم | عضو | علوم الاعلام والاتصال | جامعة سيدي بلعباس | 
-
+	
 
 	## أعضاء اللجنة العلمية من خارج الوطن
 
